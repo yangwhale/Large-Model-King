@@ -10,11 +10,13 @@
 
 ```
 Large-Model-King/
-  README.md           # 本文件
+  README.md              # 本文件
   outline/
-    timeline.md       # 时间线（纪元 ↔ 现实年份）
-    characters.md     # 人物谱（真名 ↔ 道号 ↔ 门派）
-    style-guide.md    # 风格指南（术语映射、叙事规则）
+    timeline.md          # 时间线（纪元 ↔ 现实年份，从互联网前史到未来）
+    characters.md        # 人物谱（真名 ↔ 道号 ↔ 门派）
+    style-guide.md       # 风格指南（术语映射、叙事规则、神兽体系）
+    worldmap.md          # 世界地图（两大洲、芯片势力、制裁地图）
+    taming-methods.md    # 御兽之法（RL 对齐方法六大流派详解）
   chapters/
     (待写)
 ```
