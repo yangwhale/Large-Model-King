@@ -91,7 +91,12 @@
 
 ## 人物关系图谱
 
-> 点击展开查看完整图谱。箭头表示人物流动方向，虚线表示投资/供奉关系。
+![仙侠AI江湖势力图](assets/faction-map.png)
+
+*天地罗盘之上，各大门派的徽记环绕排列。金线交织，恩怨纠缠。*
+
+<details>
+<summary>📜 点击展开详细关系图（Mermaid 源码，桌面端可渲染）</summary>
 
 ```mermaid
 graph TB
@@ -196,6 +201,8 @@ graph TB
     style 大厂军团 fill:#fdcb6e,stroke:#333
     style 游侠 fill:#dfe6e9,stroke:#333
 ```
+
+</details>
 
 ---
 
