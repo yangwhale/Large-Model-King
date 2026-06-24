@@ -179,13 +179,24 @@
 
 - 2022-03：InstructGPT 论文。OpenAI 提出 RLHF：先训 Reward Model 学人类偏好，再用 PPO 让模型跟人类对齐。
 - 2022-11：ChatGPT 发布。基于 GPT-3.5 + RLHF。全球用户暴增。AI 从实验室走入千家万户。
+- 2023-02：Google 匆忙发布 Bard。底层是 LaMDA（对话模型），后切换到 PaLM 2。发布会上 Bard 当场答错了一个关于韦伯望远镜的问题，Google 股价一天蒸发 1000 亿美元。修仙界评价：「丹药没炼好就急着出炉，走火入魔了。」
 - 2023-03：GPT-4 发布。多模态。在各种考试中达到人类顶尖水平。
 - 2023：Anthropic 发布 Claude。提出 Constitutional AI（宪法 AI）。用 AI 监督 AI 的对齐方案。
 - DPO 横空出世。Stanford 证明可以绕过 Reward Model 直接优化偏好。简化了对齐流程。
 
+**云霄世家的供奉大战**
+
+这一纪最重要的暗线不是修炼本身，而是背后的灵石供奉。三大云霄世家（Azure、AWS、Google Cloud）开始争相押注修仙门派：
+
+- 2019-2023：微软（蔚蓝世家）前后投入 130 亿美元供奉 OpenAI。换来独占协议——OpenAI 的模型只能通过 Azure 对外出售。Copilot 全线产品接入 GPT。微软从一个卖 Office 的变成了 AI 时代的头号玩家。
+- 2023-09：Amazon（云霄天网）投资 Anthropic 12.5 亿美元。开启了对 Claude 的供奉之路。
+- 2023-11：**OpenAI 内乱**。董事会突然罢免 Sam Altman（天策上将）。Ilya Sutskever（须菩提祖师）参与了政变，但随后又反悔。微软的 Satya Nadella 立刻表态愿意接收 OpenAI 全体员工。五天后 Altman 回归。Ilya 失势，后出走创立 SSI（安全超级智能）。这是修仙界千年来最大的一次宫斗。
+- 2023-12：Google 发布 Gemini 模型（Nano/Pro/Ultra 三档）。这是 Google 的反击——终于拿出了一个能跟 GPT-4 正面对抗的丹药。
+
 **关键功法**: RLHF（天人感应）、PPO（近端策略优化）、DPO（直接偏好优化）、Constitutional AI（道德天条）
 **四大法器**: Actor、Critic、Reward Model、Reference Model
 **门派剧变**: OpenAI 内乱（Sam Altman 被罢免又回归）、Ilya 出走
+**云霄格局**: 微软供奉 OpenAI、Amazon 供奉 Anthropic、Google 自研自卖
 
 ---
 
@@ -234,8 +245,33 @@
 - 2026：Coding Agent 大战。Codex CLI、ForgeCode、Claude Code、TongAgents 排名角逐。
 - 2026：MoE + 长上下文 + Agent + RL 后训练 四条技术路线开始收敛融合。
 
+**微软与 OpenAI：从蜜月到分手**
+
+修仙界最大的一桩供奉关系终于走到了尽头：
+
+- 2024-03：微软暗度陈仓——收编 Inflection AI 的创始人 Mustafa Suleyman（叛神之子，DeepMind 联合创始人）和大部分团队，成立 Microsoft AI 部门。信号很明确：微软不想只做 OpenAI 的提款机了。
+- 2024-02：Google 把 Bard 改名为 Gemini。从 LaMDA → PaLM → Gemini，Google 的丹药终于从「发布会翻车」进化到了能跟 GPT-4 掰手腕的水平。
+- 2025-10：微软与 OpenAI 重新谈判。微软持有 OpenAI 约 27% 的股份（价值 ~1350 亿美元），但关系已经裂了。
+- 2026-04：**独占协议终结**。OpenAI 单方面结束了微软的模型独占权。130 亿美元投进去，6 年独占说没就没了。微软掌门 Satya Nadella 面色铁青（推测）。
+- 2026-06：微软在 Build 2026 发布 MAI-Thinking-1。正式把 OpenAI 从 Copilot 中替换掉。Mustafa Suleyman 站在台上，宣告微软从此有了自己的修炼之路。从供奉者变成了竞争者——修仙界格局再次剧变。
+
+**Amazon 的豪赌**
+
+- 2024-2026：Amazon 对 Anthropic 的供奉从 40 亿美元追加到 290 亿美元，承诺十年 1000 亿美元。这不是供奉了，这是把整个灵脉矿山抵押给了 Anthropic。同时 Amazon Bedrock 成了修仙界最大的"丹药超市"——什么门派的丹药都卖，不挑。
+
+**Google 的道统传承：LaMDA → Bard → Gemini**
+
+Google 的模型演化堪称修仙界最曲折的一条道统：
+- **LaMDA（2021）**: 对话语言模型。一个 Google 工程师声称它"有意识"，闹得满城风雨。丹药本身不算出彩，但制造的话题量满分。
+- **PaLM（2022）**: 540B 参数。Google 的 Scaling 大作。TPU Pod 级灵脉投入。
+- **Bard（2023.02）**: Google 对 ChatGPT 的仓促回应。底层先用 LaMDA 后换 PaLM 2。发布会翻车是修仙界的经典笑话。
+- **Gemini 模型（2023.12）**: Google DeepMind 全力打造。Nano/Pro/Ultra 三档。终于拿出了有竞争力的丹药。
+- **Gemini 品牌统一（2024.02）**: Bard 改名 Gemini。从此 Google 的 AI 产品全部统一到 Gemini 旗号下。
+- **Gemini 2.0/2.5/3（2025-2026）**: 思考模型、多模态、Flash 系列。Google 终于在丹药品质上追平甚至超越了部分对手。
+
 **关键功法**: DSA 动态稀疏注意力、Context Parallelism、Expert Parallelism
-**门派大洗牌**: 姚顺雨（思维树真人）从 OpenAI 到腾讯混元。生广明从字节到腾讯。
+**门派大洗牌**: 姚顺雨（思维树真人）从 OpenAI 到腾讯混元。生广明从字节到腾讯。微软自立门户。
+**云霄剧变**: 微软-OpenAI 分手、Amazon 豪赌 Anthropic、Google 左手修炼右手卖矿
 **未来伏笔**: 视觉、音频、代码、推理的统一模型正在形成。
 
 ---

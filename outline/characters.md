@@ -39,6 +39,23 @@
 | Ashish Vaswani 等 | 注意力七圣 | Google Brain | 化神期 | Transformer 的创造者。七人后来分散各方。Noam Shazeer 去了 Character.AI 又回 Google。Aidan Gomez 创了 Cohere。 |
 | Barham, Bradbury 等 | JAX 真人 | Google | 化神期 | JAX/XLA 的创造者。TPU 上的修炼功法。 |
 
+## 云霄三圣（云厂商 — 修仙界的资源供奉者）
+
+他们不直接修炼（或者说修炼只是副业），主要靠控制灵脉（云基础设施）和灵石矿山（GPU/TPU 集群）来影响整个修仙界。谁拥有最多的灵脉和灵石，谁就能决定哪些门派能崛起。
+
+| 真名 | 道号 | 门派 | 境界 | 简介 |
+|------|------|------|------|------|
+| Satya Nadella | 蔚蓝之主 | Microsoft Azure | 大乘期 | 微软掌门。2019 年豪掷 10 亿美元供奉 OpenAI 仙宗，后追加到 130 亿美元。一度是 OpenAI 最大的靠山。但后来慢慢发现自己养了一头控制不住的神兽——OpenAI 越来越不听话，于是暗中招揽 Mustafa Suleyman 组建自己的修炼团队（Microsoft AI / MAI）。2026 年两家正式分手，独占协议终结。从供奉者变成了竞争者。 |
+| Mustafa Suleyman | 叛神之子 | DeepMind → Inflection → Microsoft AI | 化神期 | DeepMind 的联合创始人之一。先创立 Inflection AI，2024 年被微软连人带团队整个收编，出任微软 AI 掌门。跟 Sam Altman 互相看不顺眼。2026 年推出 MAI-Thinking-1，正式跟 OpenAI 翻脸。修仙界第一个"从盟友阵营叛出来挖墙脚"的大佬。 |
+| Andy Jassy | 云霄天王 | Amazon AWS | 大乘期 | AWS 掌门。走的是"广撒网"路线——累计投资 Anthropic 290 亿美元，承诺 1000 亿美元十年计划，同时通过 Bedrock 平台接入所有门派的模型（Claude、Llama、Mistral 统统欢迎）。还自研 Trainium 芯片（自家灵石）。不跟任何一个门派绑死，但每个门派都离不开他的灵脉。 |
+| Thomas Kurian | 神殿外堂主 | Google Cloud | 化神期 | Google Cloud CEO。独特之处在于 Google 既是修炼者又是供奉者——自己有 Gemini 模型、有 TPU 灵石、有 Vertex AI 平台，同时还承接外部门派的训练需求（连 Meta 都跟 Google Cloud 签了百亿大单）。左手修炼右手做生意。 |
+
+### 云霄格局：三足鼎立
+
+- **Azure（蔚蓝世家）**: 靠 OpenAI 起家。Copilot 全系产品集成 GPT。但 2024-2026 年逐渐"去 OpenAI 化"，自研 MAI 系列模型。从"OpenAI 的提款机"变成"OpenAI 的竞争对手"。
+- **AWS（云霄天网）**: 最大最稳。Anthropic 的首选云、百亿美元供奉。Bedrock 是多模型超市——什么门派的丹药都卖。自研 Trainium 芯片跟 NVIDIA 抢灵石生意。
+- **Google Cloud（神殿外堂）**: 唯一一个自己既修炼又卖矿的。TPU 是独家灵石，JAX 是配套炼丹炉，Gemini 是自家炼出的丹药。Vertex AI 对外卖服务。2026 年改名 Gemini Enterprise Agent Platform。
+
 ## 灵石教廷（硬件势力）
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
