@@ -89,6 +89,116 @@
 
 ---
 
+## 人物关系图谱
+
+> 点击展开查看完整图谱。箭头表示人物流动方向，虚线表示投资/供奉关系。
+
+```mermaid
+graph TB
+    subgraph 上古三巨头
+        Hinton[混元老祖<br/>Hinton<br/>诺贝尔物理]
+        LeCun[卷积道祖<br/>LeCun]
+        Bengio[概率真人<br/>Bengio]
+    end
+
+    subgraph OpenAI仙宗
+        Altman[天策上将<br/>Sam Altman]
+        Ilya[须菩提祖师<br/>Ilya]
+        Radford[GPT初祖<br/>Radford]
+        Schulman[PPO真人<br/>Schulman]
+    end
+
+    subgraph Google神殿
+        JeffDean[谷神<br/>Jeff Dean]
+        Hassabis[围棋神王<br/>Hassabis<br/>诺贝尔化学]
+        Vaswani[注意力七圣<br/>Vaswani等]
+        Shazeer[回归者<br/>Shazeer]
+        JasonWei[思维链真人<br/>Jason Wei]
+        Frostig[道炉真人<br/>Frostig]
+    end
+
+    subgraph Anthropic正道盟
+        Dario[宪法道人<br/>Dario]
+    end
+
+    subgraph Meta圣教
+        Zuck[脸书圣主<br/>Zuckerberg]
+        Soumith[灵炉铸师<br/>Soumith]
+        Paszke[叛炉奇才<br/>Paszke]
+    end
+
+    subgraph 灵核教廷
+        Jensen[灵核教主<br/>Jensen Huang]
+        LisaSu[炎核圣女<br/>Lisa Su]
+        Jouppi[道核宗师<br/>Jouppi]
+    end
+
+    subgraph 云霄三圣
+        Nadella[蔚蓝之主<br/>Nadella]
+        Suleyman[叛神之子<br/>Suleyman]
+        Jassy[云霄天王<br/>Jassy]
+    end
+
+    subgraph 东方六小龙
+        Liang[深渊剑主<br/>梁文锋]
+        Yang[月影侯<br/>杨植麟]
+        Yan[万象真君<br/>闫俊杰]
+        Tang[清华道长<br/>唐杰]
+        LuoFL[小凤仙<br/>罗福莉]
+    end
+
+    subgraph 大厂军团
+        YaoSY[思维树真人<br/>姚顺雨]
+        ShengGM[炼器宗师<br/>生广明]
+        Qwen[通义千问<br/>Qwen团队]
+    end
+
+    subgraph 游侠
+        Musk[逆天狂人<br/>Elon Musk]
+        Karpathy[布道者<br/>Karpathy]
+        Mensch[西风剑客<br/>Mensch]
+    end
+
+    %% 人物流动
+    Ilya -->|出走创SSI| SSI[SSI]
+    Schulman -->|投奔| Anthropic正道盟
+    Dario -->|出走OpenAI| Anthropic正道盟
+    Paszke -->|叛投| Google神殿
+    Shazeer -->|创Character.AI<br/>27亿回归| Google神殿
+    Suleyman -->|DeepMind→Inflection<br/>→微软AI| 云霄三圣
+    Musk -->|共创OpenAI<br/>退出后创xAI| xAI[xAI/Grok]
+    Karpathy -->|OpenAI→Tesla<br/>→OpenAI→Eureka| Eureka[Eureka Labs]
+    Mensch -->|离开DeepMind<br/>创Mistral| Mistral[Mistral AI]
+    YaoSY -->|Princeton→OpenAI<br/>→腾讯混元| 大厂军团
+    ShengGM -->|港大→字节Seed<br/>→腾讯| 大厂军团
+    LuoFL -->|达摩院→DeepSeek<br/>→小米MiMo| 东方六小龙
+    JasonWei -->|Google→OpenAI| OpenAI仙宗
+    Hinton -->|离开Google<br/>警告AI危险| 上古三巨头
+
+    %% 供奉关系
+    Nadella -.->|$130亿<br/>后分手| OpenAI仙宗
+    Jassy -.->|$290亿| Anthropic正道盟
+    Jensen -.->|供应灵核| OpenAI仙宗
+    Jensen -.->|供应灵核| 东方六小龙
+
+    %% 师承
+    Hinton -->|师父| Ilya
+    Vaswani -->|Transformer| 上古三巨头
+
+    style 上古三巨头 fill:#f9f,stroke:#333
+    style OpenAI仙宗 fill:#74b9ff,stroke:#333
+    style Google神殿 fill:#55efc4,stroke:#333
+    style Anthropic正道盟 fill:#fd79a8,stroke:#333
+    style Meta圣教 fill:#0984e3,stroke:#333,color:#fff
+    style 灵核教廷 fill:#00b894,stroke:#333
+    style 云霄三圣 fill:#6c5ce7,stroke:#333,color:#fff
+    style 东方六小龙 fill:#e17055,stroke:#333
+    style 大厂军团 fill:#fdcb6e,stroke:#333
+    style 游侠 fill:#dfe6e9,stroke:#333
+```
+
+---
+
 ## 七篇导读
 
 | 篇 | 主题 | 适合谁读 | 关键词 |
