@@ -56,13 +56,13 @@
 - **AWS（云霄天网）**: 最大最稳。Anthropic 的首选云、百亿美元供奉。Bedrock 是多模型超市——什么门派的丹药都卖。自研 Trainium 芯片跟 NVIDIA 抢灵石生意。
 - **Google Cloud（神殿外堂）**: 唯一一个自己既修炼又卖矿的。TPU 是独家灵石，JAX 是配套炼丹炉，Gemini 是自家炼出的丹药。Vertex AI 对外卖服务。2026 年改名 Gemini Enterprise Agent Platform。
 
-## 灵石教廷（硬件势力）
+## 灵核教廷（硬件势力）
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
 |------|------|------|------|------|
-| Jensen Huang | 灵石教主 | NVIDIA 教廷 | 大乘期 | 穿皮衣的男人。GPU 从游戏变成 AI 的核心。CUDA 垄断。A100/H100/B200 灵石帝国。 |
-| Lisa Su | AMD 红莲 | AMD 烈焰宗 | 化神期 | MI300X 挑战 NVIDIA。ROCm 开源对抗 CUDA。 |
-| Norman Jouppi | TPU 工匠 | Google 神殿 | 化神期 | TPU 架构师。从 v1 到 v7 Ironwood。另一条灵石路线。 |
+| Jensen Huang | 灵核教主 | NVIDIA 教廷 | 大乘期 | 穿皮衣的男人。GPU 从游戏显卡变成 AI 的核心灵核。CUDA 是教廷的独门驭核术——买了灵核就得学他的术法，一旦入教终身为教。A100 → H100 → B200，灵核品阶一路飙升。NVIDIA 市值超过 3 万亿美元，成为全球最值钱的公司。真正可怕的不只是灵核强，而是灵核+灵池+经脉+驭核术的垂直整合。 |
+| Lisa Su | 炎核圣女 | AMD 烈焰宗 | 化神期 | MI300X 炎核挑战 NVIDIA。ROCm 炎门驭核术对抗 CUDA。生态差距大但在追赶。AMD 是唯一能在高端灵核市场跟 NVIDIA 正面对抗的势力。 |
+| Norman Jouppi | 道核宗师 | Google 神殿 | 化神期 | TPU（道核）架构师。从 v1 到 v7 Ironwood 一路迭代。走了一条完全不同于 GPU 灵核的路线——专为矩阵运算设计，跟 JAX（太虚道阵）和 XLA（道门驭核术）天然配合。 |
 
 ## 东方势力（中国 AI 六小龙 + 大厂军团）
 
