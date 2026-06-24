@@ -41,6 +41,7 @@ Large-Model-King/
     style-guide.md                 # 风格指南（术语映射、神兽体系、写作规则）
     worldmap.md                    # 世界地图（两大洲、芯片势力、制裁地图）
     taming-methods.md              # 御兽之法（RL 对齐六大流派详解）
+    parallelism.md                 # 合阵修炼（分布式并行六维体系）
   chapters/
     vol1-infrastructure/           # 篇一·天地造化（4章）
     vol2-awakening/                # 篇二·神兽觉醒（4章）

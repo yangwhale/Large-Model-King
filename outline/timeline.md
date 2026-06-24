@@ -232,7 +232,22 @@
 - 2024：Noam Shazeer（注意力回归者）从 Character.AI 以 27 亿美元"反向收购"回归 Google。Transformer 八作者之一，出去创业又被 Google 天价请回来。
 
 **开源 vs 闭源**: Meta「以开制闭」战略 vs OpenAI「安全至上」封闭策略
-**东方崛起**: DeepSeek、Qwen、MiniCPM、GLM。中国 AI 从追赶到并跑。
+
+**东方崛起详录**:
+- 2023-03：面壁智能成立。清华系。后推出 MiniCPM 系列——证明"小丹也有大道"，端侧小模型性能逼近大模型。
+- 2023-03：月之暗面成立。杨植麟（月影侯），清华 Transformer-XL 作者。主攻长上下文。
+- 2023-09：智谱 AI 发布 ChatGLM2。清华唐杰教授门下。GLM 系列从学术走向商业。2026 年港股上市。
+- 2023-09：百川智能（王小川）、零一万物（李开复）相继入场。"AI 六小龙"格局初成。
+- 2023：阿里通义千问团队发布 Qwen 系列。从 Qwen-7B 到 Qwen-72B。全面开源。2024 年 Qwen2 在多个榜单超越 Llama 3。
+- 2024-01：DeepSeek LLM 论文。幻方量化的 AI 团队正式登场。系统性的 Scaling Law 研究。
+- 2024-05：DeepSeek V2。MLA（潜注意力）+ MoE。236B 总参 21B 激活。推理成本暴降。修仙界惊呼"魔宗出了个怪物"。
+- 2024-12：DeepSeek V3。671B MoE。MLA + MTP + FP8 训练。2.788M H800 GPU hours 训完——成本只有 GPT-4 训练的零头。
+- 2025-01：**DeepSeek R1**。用 GRPO（群兽竞逐法）训出了媲美 o1 的推理神兽。不需要 Critic、不需要 Reward Model。震动整个修仙界。美股芯片股集体暴跌——华尔街没想到中国团队能用这么少的灵石训出这么强的神兽。
+- 2025-07：Kimi K2。万亿参数 MoE。MuonClip 优化器实现零 loss spike（零兽性反噬）。128K 上下文。Agent 能力强劲。
+- 2025-07：Qwen 3。Thinking + Non-thinking 混合推理——神兽可以在"思考模式"和"直觉模式"之间自由切换。
+- 2025：中国 AI 六小龙格局——DeepSeek、月之暗面(Kimi)、智谱、MiniMax、百川、面壁。各自选择了不同的修行之道。
+
+**东方崛起**: DeepSeek、Qwen、Kimi、GLM、MiniCPM。中国 AI 从追赶到并跑甚至局部超越。
 
 ---
 
