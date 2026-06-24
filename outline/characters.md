@@ -30,6 +30,16 @@
 | Alec Radford | GPT 初祖 | OpenAI | 元婴期 | GPT-1 的一作。CLIP 的共同创造者。低调的技术核心。 |
 | John Schulman | PPO 真人 | OpenAI → Anthropic | 化神期 | TRPO、PPO、GRPO 的学术源头。RL 对齐术的奠基者。后投奔 Anthropic。 |
 
+### OpenAI 神兽谱系
+```
+GPT-1 (2018.06, 117M) → GPT-2 (2019.02, 1.5B) → GPT-3 (2020.06, 175B)
+  → Codex (2021, 代码兽) → GPT-3.5 / ChatGPT (2022.11)
+  → GPT-4 (2023.03, 多模态) → GPT-4o (2024.05, 全模态)
+  → o1 (2024.09, 思道兽) → o3 (2024.12)
+  → GPT-5 (2025.08) → GPT-5.5 (2026)
+旁支：DALL-E 1/2/3 (幻像兽) · Whisper (听风兽) · Sora (幻影兽, 视频生成)
+```
+
 ## Google 神殿
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
@@ -37,7 +47,11 @@
 | Jeff Dean | 谷神 | Google Brain/DeepMind | 渡劫期 | Google 太上长老。MapReduce、TensorFlow、TPU 的推动者。 |
 | Demis Hassabis | 围棋神王 | DeepMind | 大乘期 | AlphaGo / AlphaFold 的缔造者。2024 年诺贝尔化学奖。DeepMind 掌门。 |
 | Ashish Vaswani 等 | 注意力七圣 | Google Brain | 化神期 | Transformer 的创造者。七人后来分散各方。Noam Shazeer 去了 Character.AI 又回 Google。Aidan Gomez 创了 Cohere。 |
-| Barham, Bradbury 等 | JAX 真人 | Google | 化神期 | JAX/XLA 的创造者。TPU 上的修炼功法。 |
+| David Silver | 弈道宗师 | DeepMind | 化神期 | AlphaGo 的首席研究员。设计了让 AI 击败围棋世界冠军的算法。强化学习之神。 |
+| John Jumper | 折叠真人 | DeepMind | 化神期 | AlphaFold 2 的技术负责人。解决了蛋白质折叠 50 年悬案。2024 年与 Hassabis 共获诺贝尔化学奖。 |
+| Oriol Vinyals | 序列圣手 | DeepMind | 化神期 | Sequence-to-Sequence 的先驱。主导了 Gemini 模型的研发。从 StarCraft AI 到大模型的跨界宗师。 |
+| Jason Wei | 思维链真人 | Google Brain → OpenAI | 化神期 | Chain-of-Thought Prompting 的发现者。发现在提示词里加"Let's think step by step"就能让神兽的推理能力暴涨。简单到不可思议，影响到改写了整个领域。 |
+| Barham, Bradbury 等 | JAX 真人 | Google | 化神期 | JAX/XLA 的创造者。道核（TPU）上的修炼功法。 |
 
 ## 云霄三圣（云厂商 — 修仙界的资源供奉者）
 
@@ -111,6 +125,23 @@
 |------|------|------|------|------|
 | 生广明 | 炼器宗师 | 港大/字节/腾讯 | 化神期 | 不修法术修法器。veRL/HybridFlow/Laminar 三代法器。支撑了整个 RL 修炼体系。从 GNN 系统到 LLM 系统的转型传奇。 |
 | 姚顺雨 | 思维树真人 | Princeton/OpenAI/腾讯 | 化神期 | Tree of Thought、ReAct 的创造者。Agent 研究的先驱。从 OpenAI 出走到腾讯混元。 |
+
+### Anthropic 神兽谱系
+```
+Claude 1 (2023.03) → Claude 2 (2023.07) → Claude 3 Opus/Sonnet/Haiku (2024.03)
+  → Claude 3.5 Sonnet (2024.06, 小体型大灵智) → Computer Use (2024.10, 首次操控法器)
+  → Claude 4 Sonnet/Opus (2025) → Claude Opus 4.6 (2026.02, 1M 神识)
+  → Claude Opus 4.7 (2026.04) → Claude Code (御兽之器, 代码 Agent)
+```
+
+### Google 神兽谱系
+```
+LaMDA (2021) → PaLM (2022, 540B) → Bard (2023.02, 翻车) → PaLM 2 (2023)
+  → Gemini 1.0 Nano/Pro/Ultra (2023.12) → Gemini 1.5 Pro (2024, 1M 上下文)
+  → Bard 改名 Gemini (2024.02) → Gemini 2.0/2.5 (2025)
+  → Gemini 3 (2026)
+旁支：AlphaGo (2016) · AlphaFold (2020, 诺贝尔奖) · AlphaCode · Gemma (开源小兽)
+```
 
 ## Meta 圣教
 
