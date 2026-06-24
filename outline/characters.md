@@ -96,6 +96,12 @@
 | 生广明 | 炼器宗师 | 港大/字节/腾讯 | 化神期 | 不修法术修法器。veRL/HybridFlow/Laminar 三代法器。支撑了整个 RL 修炼体系。从 GNN 系统到 LLM 系统的转型传奇。 |
 | 姚顺雨 | 思维树真人 | Princeton/OpenAI/腾讯 | 化神期 | Tree of Thought、ReAct 的创造者。Agent 研究的先驱。从 OpenAI 出走到腾讯混元。 |
 
+## Meta 圣教
+
+| 真名 | 道号 | 门派 | 境界 | 简介 |
+|------|------|------|------|------|
+| Mark Zuckerberg | 脸书圣主 | Meta | 大乘期 | "穿灰色 T 恤的掌门人"。做了一个惊人的决定——把 Llama 系列神兽全部放生（开源）。"以开制闭"战略：如果 OpenAI 的闭源神兽赢了，Meta 就输了。但如果开源神兽遍天下，Meta 永远有一席之地。还投了百亿美元买 GPU 建集群。 |
+
 ## Anthropic 正道盟
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
@@ -103,6 +109,33 @@
 | Dario Amodei | 宪法道人 | Anthropic | 大乘期 | OpenAI 前研究副总裁。因安全理念分歧出走。Constitutional AI。Claude 系列。 |
 | Daniela Amodei | 盟主夫人 | Anthropic | 元婴期 | 运营负责人。Dario 的姐姐。 |
 | Chris Olah | 可解释真人 | Anthropic | 化神期 | 神经网络可视化和可解释性研究的先驱。 |
+
+## 游侠与叛逆者（跨门派的关键人物）
+
+| 真名 | 道号 | 门派 | 境界 | 简介 |
+|------|------|------|------|------|
+| Elon Musk | 逆天狂人 | OpenAI(创) → Tesla → xAI | 大乘期 | OpenAI 的联合创始人之一，后因理念不合离开。2023 年创立 xAI，推出 Grok 神兽。同时起诉 OpenAI 背叛初心。修仙界唯一一个"创了个门派，退出了，又创了个门派来打自己创的门派"的人。还把 xAI 跟 SpaceX 合并了。 |
+| Andrej Karpathy | 布道者 | OpenAI → Tesla → OpenAI → Eureka Labs | 化神期 | 斯坦福出身，Ilya 的师弟。先后在 OpenAI 和 Tesla AI 任职。离开后创立 Eureka Labs 做 AI 教育。最出名的是他的教程——把深度学习讲得连门外汉都能懂。修仙界的"讲经第一人"。 |
+| Noam Shazeer | 注意力回归者 | Google → Character.AI → Google | 化神期 | Transformer 八作者之一（注意力七圣成员）。离开 Google 后创立 Character.AI——让用户跟 AI 角色聊天的平台。2024 年又被 Google 以 27 亿美元"反向收购"回去。出去转了一圈，带着全部经验又回来了。 |
+| Arthur Mensch | 西风剑客 | DeepMind → Mistral AI | 化神期 | 前 DeepMind 研究员。2023 年在法国创立 Mistral AI，欧洲 AI 的旗帜。Mistral 7B 和 Mixtral 8x7B 以小博大，证明不是只有美国和中国才能训出好神兽。估值 140 亿美元。 |
+| Ian Goodfellow | 幻术宗师 | 酒吧 → Google → Apple | 化神期 | GAN（生成对抗网络）的发明者。传说是在酒吧喝酒时灵光一闪想出的。"以幻制幻"——让两个神经网络互相对抗来生成逼真图像。后来的 Stable Diffusion、DALL-E 都是他的思想后裔。 |
+| 何恺明 | 残差真人 | MSRA → Facebook AI → MIT | 化神期 | ResNet 残差网络的发明者。发现了"跳层捷径"——让信息可以跳过中间层直达深处，解决了深层网络退化难题。从此网络可以从几十层突破到上千层。CVPR 史上被引用最多的论文。 |
+| Tri Dao | 闪念真人 | Stanford/Princeton → Together AI | 化神期 | FlashAttention 的发明者。把 Attention 的计算效率提升了 2-4 倍，内存占用大幅降低。听起来不性感但影响极大——几乎所有大模型训练都用 FlashAttention。基础设施级的贡献。 |
+| Clement Delangue | 百兽阁主 | Hugging Face | 化神期 | Hugging Face 的联合创始人兼 CEO。把 Hugging Face 做成了 AI 界的 GitHub——全球最大的模型分享平台。几乎所有开源神兽都在他的百兽阁里有一席之地。 |
+
+## 关键平台与圣地
+
+修仙界不只有门派和修炼者，还有几个所有人都离不开的圣地：
+
+| 平台 | 修仙名 | 说明 |
+|------|--------|------|
+| arXiv | 道经阁 | 全球最大的学术预印本平台。所有功法秘籍（论文）首发之地。在这里发道经不需要经过长老审核（同行评审），所以速度极快。 |
+| GitHub | 法器铸造坊 | 全球最大的代码托管平台。所有开源法阵（框架）、育兽工具都在这里共享。Star 数是法器受欢迎程度的标志。 |
+| Hugging Face | 百兽阁 | AI 界的 GitHub。全球最大的模型（神兽）分享平台。想用别人训好的神兽？来这里下载。 |
+| Chatbot Arena (LMSYS) | 斗兽天榜 | 加州大学伯克利分校搞的匿名神兽对战平台。人类盲评两头神兽的回答，投票选出更好的那个。ELO 积分排名。最公正的斗兽大会。 |
+| Papers with Code | 功法验证堂 | 把论文和代码绑定在一起的平台。有功法秘籍就必须有可复现的法器。防止有人吹牛。 |
+| ImageNet | 灵材圣殿 | 李飞飞创建的 1400 万张标注图片数据集。计算机视觉修炼者的必经之地。AlexNet 就是在这里一战成名的。 |
+| Wikipedia | 万知塔 | 人类协作编写的百科全书。几乎所有大模型的预训练数据里都有它。万知塔的内容是神兽最基本的灵食之一。 |
 
 ## 观察者
 

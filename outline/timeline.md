@@ -107,9 +107,14 @@
 - **PyTorch（2016.9 内部 / 2017.1 公开）**: Meta 圣教 FAIR 实验室的 Soumith Chintala（灵炉铸师）带着一个华沙大学的实习生 Adam Paszke 锻造的"百变灵炉"。脱胎于 Torch（一个 Lua 语言的老框架），改用 Python，动态计算图，写起来跟普通 Python 一样自然。研究者用了直呼好用——调试方便、代码直觉、不用跟计算图搏斗。
 - **Keras（2015）**: François Chollet 一个人撸出来的"便携炉"。不是独立的炉子，而是套在别的炉子外面的一层壳——让 TensorFlow 这种重型炉也变得好用。后来被 TensorFlow 吞并，成了它的官方高阶接口。
 
+**遗落的重要事件**:
+- 2014：Ian Goodfellow（幻术宗师）在酒吧灵光一闪发明 GAN。以幻制幻——两个网络互相对抗生成逼真图像。后来 DALL-E、Stable Diffusion 都是他的思想后裔。
+- 2015：何恺明（残差真人）发明 ResNet。「跳层捷径」让网络从几十层突破到上千层。CVPR 史上被引最多的论文。
+- 2016.03：**AlphaGo 大战李世乭**。DeepMind 的 AI 以 4:1 击败围棋世界冠军。全球震动。这不是 AI 第一次赢棋（1997 年深蓝赢过国际象棋），但围棋的复杂度远超象棋——可能的棋局数比宇宙中的原子还多。Demis Hassabis（围棋神王）一战封神。
+
 **关键功法**: ResNet 残差术、GAN 对抗术、LSTM 记忆术、Batch Normalization
 **关键法器**: GTX TITAN → Tesla K80 → P100（灵石品阶跃升）
-**关键炼丹炉**: Theano → Caffe → TensorFlow → PyTorch（四代炉子演化）
+**关键育兽法阵**: Theano → Caffe → TensorFlow → PyTorch（四代法阵演化）
 **暗流涌动**: Google Brain 和 DeepMind 在暗中积蓄力量
 
 ---
@@ -167,6 +172,15 @@
 - **JAX**：Google 神殿的道炉。跟 TPU（道石）天生一对。Gemini、PaLM 都是 JAX + TPU 炼出来的。
 - **TensorFlow**：昔日的王。还在大量生产系统中运行，但新项目越来越少有人选它。像一座曾经辉煌的古炉，还在发光发热，但已经不再是主流。
 
+**遗落的重要事件**:
+- 2020：AlphaFold 2。DeepMind 解决了生物学 50 年悬案——蛋白质折叠预测。AI 第一次在自然科学领域做出诺贝尔级别的贡献。2024 年 Hassabis 和 Jumper 因此获得诺贝尔化学奖。
+- 2020：Tri Dao（闪念真人）发明 FlashAttention。把 Attention 计算效率提升 2-4 倍。听起来不性感但几乎所有大模型训练都用它。基础设施级的贡献。
+- 2020：Hugging Face 崛起。从一个聊天机器人公司变成 AI 界的 GitHub——全球最大的模型分享平台（百兽阁）。
+- 2022.04：DALL-E 2。OpenAI 的幻像兽（图像生成模型）。输入文字就能生成图片。
+- 2022.08：Stable Diffusion 开源。Stability AI 把幻像兽放归山林。AI 绘画从此平民化。
+- 2022：Midjourney 上线。AI 生成的图片开始赢得摄影比赛和艺术奖。人类艺术家集体破防。
+- 2024.10：**双诺贝尔加冕**。Hinton（混元老祖）获诺贝尔物理学奖（神经网络基础理论），Hassabis & Jumper 获诺贝尔化学奖（AlphaFold）。AI 从"工具"变成了"诺贝尔级科学方法"。修仙界两位大能同年获天道加冕，史无前例。
+
 **关键功法**: Scaling Law（大道至简）、In-Context Learning（感应学习）、Chain-of-Thought（思维链）
 **大道真理**: 规模即是力量。参数翻倍、数据翻倍、算力翻倍，能力涌现。
 **灵石危机**: GPU 供不应求。A100 价格飞涨。算力成为修炼最大瓶颈。
@@ -212,6 +226,11 @@
 - 2024-05：DeepSeek V2。MLA + MoE。236B 总参数 21B 激活。推理成本暴降。
 
 **关键功法**: MoE（混合专家）、MLA（多头潜注意力）、GQA（分组查询注意力）
+**新兴势力**:
+- 2023-04：Mistral AI 在法国成立。Arthur Mensch（西风剑客，前 DeepMind）领衔。Mistral 7B 和 Mixtral 8x7B 以小博大。欧洲 AI 的旗帜。
+- 2023-07：Elon Musk（逆天狂人）创立 xAI，推出 Grok。他创了 OpenAI 又退出，退出后又创了 xAI 来跟 OpenAI 竞争，还起诉了 OpenAI——修仙界最魔幻的创业故事。
+- 2024：Noam Shazeer（注意力回归者）从 Character.AI 以 27 亿美元"反向收购"回归 Google。Transformer 八作者之一，出去创业又被 Google 天价请回来。
+
 **开源 vs 闭源**: Meta「以开制闭」战略 vs OpenAI「安全至上」封闭策略
 **东方崛起**: DeepSeek、Qwen、MiniCPM、GLM。中国 AI 从追赶到并跑。
 
