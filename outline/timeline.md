@@ -89,7 +89,7 @@
 
 ## 第二纪：炼丹初期（2013-2016）
 
-**百家争鸣，各显神通**
+**百家争鸣，各显神通——功法与炼丹炉的时代**
 
 - VGGNet、GoogLeNet、ResNet 相继问世。ImageNet 大战年年升级。
 - 2014：GAN 诞生。Ian Goodfellow 在酒吧灵光一闪，创出「以幻制幻」之术——生成对抗网络。
@@ -97,8 +97,19 @@
 - 2015-2016：RNN/LSTM 在序列任务上大放异彩。机器翻译、语音识别初露锋芒。
 - NVIDIA 成为「灵石供应商」头号势力。GPU 从游戏显卡变身修炼灵器。黄仁勋（灵石教主）开始布局 AI 算力生意。
 
+**炼丹炉大战——工欲善其事必先利其器**
+
+修炼者越来越多，光有灵石和功法不够，还得有趁手的炼丹炉。这个时期，各大势力争相铸造自己的炉子：
+
+- **Theano（2007-2017）**: 上古残炉。MILA 学院概率真人（Yoshua Bengio）门下出品。第一个用计算图来描述炼丹流程的法器。粗糙，但开天辟地。2017 年宣布停止维护——古炉完成了它的使命，功成身退。
+- **Caffe（2013）**: 贾扬清在 UC Berkeley 锻造的"快手炉"。轻便好用，视觉任务（图像识别）特别在行。贾扬清后来加入 Facebook，又转投阿里巴巴任技术副总裁。Caffe 的血脉最终融入了 PyTorch。
+- **TensorFlow（2015.11 开源）**: Google 神殿倾力打造的"九转乾坤炉"。Jeff Dean（谷神）与 Rajat Monga（炉首）主导。刚出世时惊艳天下——160M 次下载，NASA、Uber、Airbnb 争相采用。但越做越臃肿，功能堆砌，像一座装了太多机关的巨型炼丹炉——功能强大但操控反人类。
+- **PyTorch（2016.9 内部 / 2017.1 公开）**: Meta 圣教 FAIR 实验室的 Soumith Chintala（灵炉铸师）带着一个华沙大学的实习生 Adam Paszke 锻造的"百变灵炉"。脱胎于 Torch（一个 Lua 语言的老框架），改用 Python，动态计算图，写起来跟普通 Python 一样自然。研究者用了直呼好用——调试方便、代码直觉、不用跟计算图搏斗。
+- **Keras（2015）**: François Chollet 一个人撸出来的"便携炉"。不是独立的炉子，而是套在别的炉子外面的一层壳——让 TensorFlow 这种重型炉也变得好用。后来被 TensorFlow 吞并，成了它的官方高阶接口。
+
 **关键功法**: ResNet 残差术、GAN 对抗术、LSTM 记忆术、Batch Normalization
 **关键法器**: GTX TITAN → Tesla K80 → P100（灵石品阶跃升）
+**关键炼丹炉**: Theano → Caffe → TensorFlow → PyTorch（四代炉子演化）
 **暗流涌动**: Google Brain 和 DeepMind 在暗中积蓄力量
 
 ---
@@ -142,6 +153,19 @@
 - 2021：Google 发布 PaLM。540B 参数。万亿 token 训练。TPU Pod 级别的灵脉投入。
 - 2022-03：Chinchilla 论文。DeepMind 证明了之前所有大模型都「欠喂」了。最优比例是 20 token : 1 parameter。
 - 2022 年末：ChatGPT 发布。世界震动。
+
+**炼丹炉格局剧变——PyTorch 称霸，JAX 暗起**
+
+- 2018-2020：PyTorch 与 TensorFlow 的战争进入决胜阶段。PyTorch 1.0 合并了 Caffe2 的生产能力，研究+部署一炉搞定。各大 ML 顶会论文 80% 以上使用 PyTorch。TensorFlow 臃肿不堪，连 Google 内部研究者都开始嫌弃。
+- 2018：Google Brain 内部，一个小团队悄悄锻造新炉——JAX。Roy Frostig、Matthew James Johnson、Chris Leary 三人发表论文"Compiling machine learning programs via high-level tracing"。JAX 走的是函数式编程路线，跟 NumPy 一样直觉，底层用 XLA 编译器，天然为 TPU 优化。
+- 2020：戏剧性的一幕——PyTorch 的联合创造者 Adam Paszke 叛投 Google，加入 JAX 团队。这就好比一个门派的铸炉大师突然投奔了对手，还带着全套的造炉心得。
+- 2022-09：PyTorch 从 Meta 移交给 Linux Foundation，成立 PyTorch Foundation。从一家公司的项目变成了整个修仙界的公共法器。Meta、Microsoft、Amazon、Google 都是理事会成员。
+- 2022-至今：Google 内部几乎全面从 TensorFlow 迁移到 JAX。Google Brain 和 DeepMind 的新项目基本都用 JAX。但 JAX 在 Google 之外的生态还远不如 PyTorch——它太依赖 TPU，GPU 支持一度拉胯。
+
+**三炉并立，各有天命**：
+- **PyTorch**：散修界的标准炉。开源社区的宠儿。几乎所有开源大模型（Llama、DeepSeek、Qwen）都用 PyTorch 训练。
+- **JAX**：Google 神殿的道炉。跟 TPU（道石）天生一对。Gemini、PaLM 都是 JAX + TPU 炼出来的。
+- **TensorFlow**：昔日的王。还在大量生产系统中运行，但新项目越来越少有人选它。像一座曾经辉煌的古炉，还在发光发热，但已经不再是主流。
 
 **关键功法**: Scaling Law（大道至简）、In-Context Learning（感应学习）、Chain-of-Thought（思维链）
 **大道真理**: 规模即是力量。参数翻倍、数据翻倍、算力翻倍，能力涌现。

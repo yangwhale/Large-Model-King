@@ -57,6 +57,21 @@
 | 智谱 | 清华道院 | 智谱/GLM | 化神期 | GLM 系列。从学术走向商业。唐杰教授的弟子们。 |
 | 阿里通义 | 商道巨擘 | 阿里 Qwen | 化神期 | Qwen 系列。开源生态强。Qwen 3 thinking + non-thinking。 |
 
+## 炼丹炉铸师（框架创造者）
+
+他们不直接修炼法术，而是铸造修炼者手中的炼丹炉。没有好炉子，再好的功法和灵材也白搭。
+
+| 真名 | 道号 | 门派 | 境界 | 简介 |
+|------|------|------|------|------|
+| Soumith Chintala | 灵炉铸师 | Meta FAIR | 化神期 | PyTorch 之父。印度裔，在 FAIR 带着一个实习生 Adam Paszke 铸出了百变灵炉（PyTorch），彻底打败了 Google 的九转乾坤炉（TensorFlow）。2025 年 11 月离开 Meta，功成身退。一手缔造了散修界的标准法器。 |
+| Adam Paszke | 叛炉奇才 | Meta FAIR → Google | 化神期 | PyTorch 联合创造者。华沙大学实习生出身，天赋异禀。参与铸造了百变灵炉后，竟叛投 Google 加入 JAX 团队——带着造炉心得投奔对手，修仙界哗然。这就好比铸剑师把独门秘诀带给了竞争门派。 |
+| Bill Jia | 炉台总管 | Meta AI Infra | 元婴期 | Meta AI 基础设施副总裁。不铸炉但管炉——确保 PyTorch 有足够的资源、人力和战略方向。背后的推手。 |
+| Rajat Monga | 乾坤炉首 | Google Brain | 化神期 | TensorFlow 的创立者和首任掌门。与 Jeff Dean（谷神）一起推出了 Google 的重型炼丹炉。炉子虽然后来臃肿了，但曾经是天下第一。 |
+| Roy Frostig | 道炉真人 | Google Brain/DeepMind | 化神期 | JAX 的联合创造者。斯坦福出身，研究机器学习理论和系统。JAX 的设计哲学——函数式、可组合、XLA 编译——很大程度上来自他的审美。 |
+| Matthew James Johnson | 道炉真人 | Google Brain/DeepMind | 化神期 | JAX 的另一位联合创造者。与 Frostig 一起设计了 JAX 的核心 tracing 机制。 |
+| 贾扬清 | 快手炉主 | UC Berkeley → Facebook → 阿里 | 化神期 | Caffe 框架的创造者。在 Berkeley 读博时铸造了"快手炉"，后来加入 Facebook 做了 Caffe2，Caffe2 最终融入 PyTorch。再后来转投阿里巴巴任技术副总裁。一个铸炉师的三次转身。 |
+| François Chollet | 便携炉匠 | Google | 化神期 | Keras 的独力创造者。一个人撸出了一套高阶接口，让 TensorFlow 这种重型炉也变得好用。后来 Keras 被 TensorFlow 吞并。还创造了 ARC 测试——衡量 AI 真正智能的试金石。 |
+
 ## 系统宗师（基础设施）
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
