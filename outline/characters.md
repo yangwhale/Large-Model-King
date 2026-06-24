@@ -80,6 +80,66 @@ GPT-1 (2018.06, 117M) → GPT-2 (2019.02, 1.5B) → GPT-3 (2020.06, 175B)
 
 ## 东方势力（中国 AI 六小龙 + 大厂军团）
 
+### 东方神兽谱系
+
+```
+DeepSeek 深渊魔兽:
+  DeepSeek LLM (2024.01) → V2 (2024.05, MLA+MoE 236B) → V2.5 (2024.09)
+    → V3 (2024.12, 671B MoE+FP8) → R1 (2025.01, GRPO 思道兽)
+    → V3.1 (2025.09) → V3.2 (2025.12, DSA) → V4 (2026.04, 1.6T CSA+HCA)
+  旁支: DeepSeek-Coder · DeepSeek-Math · DeepSeek-VL · DeepEP · DeepGEMM · FlashMLA
+
+Qwen 通义圣兽:
+  Qwen-7B/72B (2023.09) → Qwen1.5 (2024.02) → Qwen2 (2024.06)
+    → Qwen2.5 (2024.12) → QwQ-32B (2025.03, 推理兽)
+    → Qwen3 (2025.04, Thinking+Non-thinking) → Qwen3.7 (2026)
+  旁支: Qwen-VL · Qwen-Audio · Qwen2.5-Max (MoE) · Qwen2.5-Omni (全模态)
+
+GLM 清华道兽:
+  ChatGLM-6B (2023.03, 开源起步) → ChatGLM2 (2023.06) → ChatGLM3 (2023.10)
+    → GLM-4 (2024.01) → GLM-4.6 (2025.09, 开源) → GLM-5 (2026.02, 工程级)
+    → GLM-5.2 (2026.06, Coding SOTA, 1M 上下文, 开源 MIT)
+  创新: IndexShare 注意力机制
+
+Kimi 月影神兽:
+  Kimi Chat (2023, 200K 上下文) → K1 → K1.5 (2025.01, 推理兽)
+    → K2 (2025.07, 1T MoE, MuonClip 零 loss spike)
+    → K2.5 (2026, 长上下文之王) → K2.7 Code (2026, 256K)
+  核心技术: Mooncake KVCache 分离架构 · MuonClip 优化器 · Transformer-XL
+
+MiniMax 万象神兽:
+  MiniMax 早期模型 (2022-2023) → MiniMax-01 (2025.01, 456B MoE, Lightning Attention)
+    → MiniMax-M1 (2025) → MiniMax-M2 (2026)
+  旁支: 海螺 AI (视频生成 video-01) · Speech 2.8 (语音) · Music 2.6 (音乐)
+  特色: 多模态全线布局，文本/语音/视频/音乐全覆盖
+
+MiMo 小米灵兽:
+  MiMo-7B (2025.05, 小参数推理兽) → MiMo-V2 (2025.12)
+    → MiMo-V2-Pro (2026.03, Agent 旗舰) → MiMo-V2-Flash (2026)
+  特色: 以小博大，端侧部署，"人车家"全生态 AI 底座
+```
+
+### 西方补充神兽谱系
+
+```
+Llama 林中群兽 (Meta):
+  Llama 1 (2023.02, 泄露) → Llama 2 (2023.07, 正式开源)
+    → Llama 3 (2024.04, 8B/70B) → Llama 3.1 (2024.07, 405B 首个开源巨兽)
+    → Llama 3.2 (2024.09, 多模态) → Llama 3.3 (2024.12)
+    → Llama 4 (2025.04, MoE)
+
+Mistral 西风之兽 (法国):
+  Mistral 7B (2023.09) → Mixtral 8x7B (2023.12, 开源 MoE)
+    → Mistral Large (2024.02) → Mixtral 8x22B (2024.04)
+    → Mistral Large 2 (2024.07) → Pixtral (2024, 视觉)
+    → Mistral Large 3 (2025.12, 675B MoE)
+
+Grok 逆天之兽 (xAI):
+  Grok-1 (2023.11, 314B MoE) → Grok-1.5 (2024.05, 128K)
+    → Grok-2 (2024.08) → Grok-3 (2025.02)
+    → Grok-4 (2025.07, Heavy 版 $300/月)
+```
+
 ### AI 六小龙（创业公司第一梯队）
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
