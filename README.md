@@ -98,28 +98,17 @@
 
 ---
 
-## 目录结构
+## 世界观素材库
 
-```
-Large-Model-King/
-  README.md                        # 本文件
-  outline/                         # 世界观素材库
-    master-outline.md              # 总纲（七篇三十二章 + 进度）
-    timeline.md                    # 时间线（1960s → 2027+）
-    characters.md                  # 人物谱（100+ 人物 + 12 神兽谱系）
-    style-guide.md                 # 术语映射（150+ 条）
-    taming-methods.md              # 御兽之法六大流派
-    parallelism.md                 # 合阵修炼六维并行
-    worldmap.md                    # 世界地图
-  chapters/                        # 正文
-    vol1-infrastructure/           # 篇一（4章）
-    vol2-awakening/                # 篇二（4章）
-    vol3-battle/                   # 篇三（6章）
-    vol4-taming/                   # 篇四（5章 + 1番外）
-    vol5-east/                     # 篇五（5章）
-    vol6-convergence/              # 篇六（4章）
-    vol7-future/                   # 篇七（4章）
-```
+| 文件 | 内容 |
+|------|------|
+| [总纲](outline/master-outline.md) | 七篇三十三章完整目录 + 进度追踪 |
+| [时间线](outline/timeline.md) | 1960s ARPANET → 2027+ AGI，十大纪元 |
+| [人物谱](outline/characters.md) | 100+ 人物 + 12 神兽谱系 + 境界体系 |
+| [术语映射](outline/style-guide.md) | 150+ 条 AI ↔ 修仙术语对照 |
+| [御兽之法](outline/taming-methods.md) | PPO/DPO/GRPO 等六大驯兽流派 |
+| [合阵修炼](outline/parallelism.md) | DP/TP/PP/EP/SP/CP 六维并行 |
+| [世界地图](outline/worldmap.md) | 东西方大陆势力分布 |
 
 ---
 
@@ -140,9 +129,10 @@ Large-Model-King/
 
 - [x] 世界观设定（智元/神兽/灵坛/灵体三大定律、150+ 术语）
 - [x] 素材库（时间线 + 100 人物 + 12 神兽谱系 + 御兽之法 + 并行体系）
-- [x] 总纲定稿（七篇三十二章）
-- [x] **全书初稿完成（32 章 + 1 番外 = 33 个文件）**
-- [ ] 深度迭代优化（事实核查 + 文风统一 + 内容扩充）
+- [x] 总纲定稿（七篇三十三章）
+- [x] **全书初稿完成（33 章 + 1 番外 = 34 个文件）**
+- [x] R2 Review：术语统一 + 事实核查 + 跨章链接修复（113 处）
+- [ ] R3 迭代：内容扩充 + 文风打磨
 
 ---
 
