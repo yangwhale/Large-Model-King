@@ -93,12 +93,12 @@ Gemini 1.5 Pro 的 1M token 上下文就是在 TPU Pod 上实现的。
 
 | 神兽 | 上下文长度 | 核心技术 |
 |------|-----------|---------|
-| Gemini 1.5 Pro | 1M | TPU + Context Parallelism |
+| Gemini 3.1 Pro | 1M（2M 预览） | TPU + Context Parallelism |
 | DeepSeek V4 | 1M | CSA + HCA 稀疏注意力 |
-| Claude Opus 4.6 | 1M | 未公开 |
-| Kimi K2.5 | 256K+ | Mooncake KVCache 分离 |
+| Claude Opus 4.8 | 1M | 未公开 |
+| GPT-5 | 400K | 未公开 |
+| Kimi K2.6 | 256K | Mooncake KVCache 分离 + MuonClip |
 | GLM-5.2 | 1M | IndexShare 注意力 |
-| GPT-5 | 256K | 未公开 |
 
 百万神识不再是一家独占——而是成了修仙界的新标配。
 
