@@ -122,7 +122,7 @@ Pichai 下了决心：合并。Jeff Dean 和 Demis Hassabis 必须联手。
 
 这一刀砍得最深，也最疼。
 
-Google 的老家底九转阵基（TensorFlow）已经不行了。臃肿、笨重、连 Google 内部的研究员都嫌它难用。PyTorch 在外面已经一统天下，Google 内部也有越来越多的人偷偷在用 PyTorch——这简直是灵核教廷的人偷偷拿对手的炼丹炉在练功，丢脸到家了。
+Google 的老家底九转阵基（TensorFlow）已经不行了。臃肿、笨重、连 Google 内部的研究员都嫌它难用。PyTorch 在外面已经一统天下，Google 内部也有越来越多的人偷偷在用 PyTorch——这简直是灵核教廷的人偷偷拿对手的阵基在练功，丢脸到家了。
 
 Google 选择了另一条路：**全面转向太虚阵基（JAX）。**
 
