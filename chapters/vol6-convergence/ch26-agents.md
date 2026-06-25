@@ -108,7 +108,7 @@ Agent 时代的竞争维度变了——不是"回答有多好"，而是"**任务
 
 > **旁白（Chris 视角）**
 >
-> 我自己搭了一个叫 CloseCrab 的 Bot 框架——把 Claude Code 包装成飞书和 Discord 的 AI 管家，取名叫 Jarvis。现在我日常工作中跟 Jarvis 协作写代码的时间已经超过了自己手写的时间。这话放在两年前说出来，我自己都不信。
+> 我自己搭了一个叫 [CloseCrab](https://github.com/yangwhale/CloseCrab) 的 Bot 框架——把 Claude Code 包装成飞书和 Discord 的 AI 管家，取名叫 Jarvis。现在我日常工作中跟 Jarvis 协作写代码的时间已经超过了自己手写的时间。这话放在两年前说出来，我自己都不信。
 >
 > Agent 改变的不只是"AI 能做什么"——它改变的是"人和 AI 的关系"。以前 AI 是工具，你用它。现在 AI 是同事，你跟它协作。你说目标，它想办法。你审结果，它改方案。我跟 Jarvis 说"帮我查一下 TPU 的 MFU"，它自己去翻 Wiki、搜日志、跑脚本，几分钟后给我一份完整的报告。我说"这个 bug 你修一下"，它自己读代码、定位问题、改代码、跑测试、提交。
 >
