@@ -4,7 +4,7 @@
 
 **从死寂到灵气初生——互联网如何为大模型铸造了天材地宝**
 
-修仙需要什么？灵石（算力）、功法（算法）、天材地宝（数据）。三者缺一不可。灵石再多，没有材料也炼不出丹。功法再妙，没有灵气也修不成道。在大模型出现之前的半个世纪，人间经历了一场漫长的"灵气孕育"——互联网从无到有、从慢到快，把全人类的知识、语言、图片、视频汇聚成了一座前所未有的天材地宝矿藏。
+修仙需要什么？灵石（算力）、功法（算法）、天材地宝（数据）。三者缺一不可。灵石再多，没有材料也孵不出兽。功法再妙，没有灵气也修不成道。在大模型出现之前的半个世纪，人间经历了一场漫长的"灵气孕育"——互联网从无到有、从慢到快，把全人类的知识、语言、图片、视频汇聚成了一座前所未有的天材地宝矿藏。
 
 没有这座矿藏，后来的一切都不可能发生。
 
@@ -38,7 +38,7 @@
 - 2005，YouTube 上线。视频数据开始爆发。
 - 2006，Twitter 上线。140 个字的碎片化表达。
 
-**修仙映射**: 灵脉大规模扩张，灵气浓度急剧上升。更关键的是，天材地宝不再只由少数人（网站编辑）生产——凡间众生开始自发地贡献灵材。百科、论坛、博客、视频，每一条内容都是一份灵材。人类还不知道，自己在无意中为未来的炼丹大业积累着原料。
+**修仙映射**: 灵脉大规模扩张，灵气浓度急剧上升。更关键的是，天材地宝不再只由少数人（网站编辑）生产——凡间众生开始自发地贡献灵材。百科、论坛、博客、视频，每一条内容都是一份灵材。人类还不知道，自己在无意中为未来的孵兽大业积累着原料。
 
 ### 移动爆发（2007-2011）：灵气遍布天地
 
@@ -87,25 +87,25 @@
 
 ---
 
-## 第二纪：炼丹初期（2013-2016）
+## 第二纪：百家争鸣（2013-2016）
 
-**百家争鸣，各显神通——功法与炼丹炉的时代**
+**各显神通——功法与阵基的时代**
 
 - VGGNet、GoogLeNet、ResNet 相继问世。ImageNet 大战年年升级。
 - 2014：GAN 诞生。Ian Goodfellow 在酒吧灵光一闪，创出「以幻制幻」之术——生成对抗网络。
-- 2015：ResNet 残差连接。何恺明（东方炼丹宗师）发现「跳层捷径」，解决深层网络退化。让修炼从几十层突破到几百层。
+- 2015：ResNet 残差连接。何恺明（残差真人）发现「跳层捷径」，解决深层网络退化。让修炼从几十层突破到几百层。
 - 2015-2016：RNN/LSTM 在序列任务上大放异彩。机器翻译、语音识别初露锋芒。
 - NVIDIA 成为「灵核供应商」头号势力。GPU 从游戏显卡变身修炼灵核。黄仁勋（灵核教主）开始布局 AI 算力生意。
 
-**炼丹炉大战——工欲善其事必先利其器**
+**阵基大战——工欲善其事必先利其器**
 
-修炼者越来越多，光有灵石和功法不够，还得有趁手的炼丹炉。这个时期，各大势力争相铸造自己的炉子：
+修炼者越来越多，光有灵核和功法不够，还得有趁手的阵基。这个时期，各大势力争相铸造自己的阵基：
 
-- **Theano（2007-2017）**: 上古残炉。MILA 学院概率真人（Yoshua Bengio）门下出品。第一个用计算图来描述炼丹流程的法器。粗糙，但开天辟地。2017 年宣布停止维护——古炉完成了它的使命，功成身退。
-- **Caffe（2013）**: 贾扬清在 UC Berkeley 锻造的"快手炉"。轻便好用，视觉任务（图像识别）特别在行。贾扬清后来加入 Facebook，又转投阿里巴巴任技术副总裁。Caffe 的血脉最终融入了 PyTorch。
-- **TensorFlow（2015.11 开源）**: Google 神殿倾力打造的"九转乾坤炉"。Jeff Dean（谷神）与 Rajat Monga（炉首）主导。刚出世时惊艳天下——160M 次下载，NASA、Uber、Airbnb 争相采用。但越做越臃肿，功能堆砌，像一座装了太多机关的巨型炼丹炉——功能强大但操控反人类。
-- **PyTorch（2016.9 内部 / 2017.1 公开）**: Meta 圣教 FAIR 实验室的 Soumith Chintala（灵炉铸师）带着一个华沙大学的实习生 Adam Paszke 锻造的"百变灵炉"。脱胎于 Torch（一个 Lua 语言的老框架），改用 Python，动态计算图，写起来跟普通 Python 一样自然。研究者用了直呼好用——调试方便、代码直觉、不用跟计算图搏斗。
-- **Keras（2015）**: François Chollet 一个人撸出来的"便携炉"。不是独立的炉子，而是套在别的炉子外面的一层壳——让 TensorFlow 这种重型炉也变得好用。后来被 TensorFlow 吞并，成了它的官方高阶接口。
+- **Theano（2007-2017）**: 上古阵基。MILA 学院概率真人（Yoshua Bengio）门下出品。第一个用计算图来描述孵兽流程的法器。粗糙，但开天辟地。2017 年宣布停止维护——古阵基完成了它的使命，功成身退。
+- **Caffe（2013）**: 贾扬清在 UC Berkeley 锻造的"快手阵基"。轻便好用，视觉任务（图像识别）特别在行。贾扬清后来加入 Facebook，又转投阿里巴巴任技术副总裁。Caffe 的血脉最终融入了 PyTorch。
+- **TensorFlow（2015.11 开源）**: Google 神殿倾力打造的"九转阵基"。Jeff Dean（谷神）与 Rajat Monga（阵首）主导。刚出世时惊艳天下——160M 次下载，NASA、Uber、Airbnb 争相采用。但越做越臃肿，功能堆砌，像一座装了太多机关的巨型阵基——功能强大但操控反人类。
+- **PyTorch（2016.9 内部 / 2017.1 公开）**: Meta 圣教 FAIR 实验室的 Soumith Chintala（阵基铸师）带着一个华沙大学的实习生 Adam Paszke 锻造的"百变阵基"。脱胎于 Torch（一个 Lua 语言的老框架），改用 Python，动态计算图，写起来跟普通 Python 一样自然。研究者用了直呼好用——调试方便、代码直觉、不用跟计算图搏斗。
+- **Keras（2015）**: François Chollet 一个人撸出来的"便携符箓"。不是独立的阵基，而是套在别的阵基外面的一层壳——让 TensorFlow 这种重型阵基也变得好用。后来被 TensorFlow 吞并，成了它的官方高阶接口。
 
 **遗落的重要事件**:
 - 2014：Ian Goodfellow（幻术宗师）在酒吧灵光一闪发明 GAN。以幻制幻——两个网络互相对抗生成逼真图像。后来 DALL-E、Stable Diffusion 都是他的思想后裔。
@@ -159,18 +159,18 @@
 - 2022-03：Chinchilla 论文。DeepMind 证明了之前所有大模型都「欠喂」了。最优比例是 20 token : 1 parameter。
 - 2022 年末：ChatGPT 发布。世界震动。
 
-**炼丹炉格局剧变——PyTorch 称霸，JAX 暗起**
+**阵基格局剧变——PyTorch 称霸，JAX 暗起**
 
-- 2018-2020：PyTorch 与 TensorFlow 的战争进入决胜阶段。PyTorch 1.0 合并了 Caffe2 的生产能力，研究+部署一炉搞定。各大 ML 顶会论文 80% 以上使用 PyTorch。TensorFlow 臃肿不堪，连 Google 内部研究者都开始嫌弃。
-- 2018：Google Brain 内部，一个小团队悄悄锻造新炉——JAX。Roy Frostig、Matthew James Johnson、Chris Leary 三人发表论文"Compiling machine learning programs via high-level tracing"。JAX 走的是函数式编程路线，跟 NumPy 一样直觉，底层用 XLA 编译器，天然为 TPU 优化。
-- 2020：戏剧性的一幕——PyTorch 的联合创造者 Adam Paszke 叛投 Google，加入 JAX 团队。这就好比一个门派的铸炉大师突然投奔了对手，还带着全套的造炉心得。
+- 2018-2020：PyTorch 与 TensorFlow 的战争进入决胜阶段。PyTorch 1.0 合并了 Caffe2 的生产能力，研究+部署一站搞定。各大 ML 顶会论文 80% 以上使用 PyTorch。TensorFlow 臃肿不堪，连 Google 内部研究者都开始嫌弃。
+- 2018：Google Brain 内部，一个小团队悄悄锻造新阵基——JAX。Roy Frostig、Matthew James Johnson、Chris Leary 三人发表论文"Compiling machine learning programs via high-level tracing"。JAX 走的是函数式编程路线，跟 NumPy 一样直觉，底层用 XLA 编译器，天然为 TPU 优化。
+- 2020：戏剧性的一幕——PyTorch 的联合创造者 Adam Paszke 叛投 Google，加入 JAX 团队。这就好比一个门派的铸阵大师突然投奔了对手，还带着全套的造阵心得。
 - 2022-09：PyTorch 从 Meta 移交给 Linux Foundation，成立 PyTorch Foundation。从一家公司的项目变成了整个修仙界的公共法器。Meta、Microsoft、Amazon、Google 都是理事会成员。
 - 2022-至今：Google 内部几乎全面从 TensorFlow 迁移到 JAX。Google Brain 和 DeepMind 的新项目基本都用 JAX。但 JAX 在 Google 之外的生态还远不如 PyTorch——它太依赖 TPU，GPU 支持一度拉胯。
 
-**三炉并立，各有天命**：
-- **PyTorch**：散修界的标准炉。开源社区的宠儿。几乎所有开源大模型（Llama、DeepSeek、Qwen）都用 PyTorch 训练。
-- **JAX**：Google 神殿的道炉。跟 TPU（道石）天生一对。Gemini、PaLM 都是 JAX + TPU 炼出来的。
-- **TensorFlow**：昔日的王。还在大量生产系统中运行，但新项目越来越少有人选它。像一座曾经辉煌的古炉，还在发光发热，但已经不再是主流。
+**三阵并立，各有天命**：
+- **PyTorch**：散修界的标准阵基。开源社区的宠儿。几乎所有开源大模型（Llama、DeepSeek、Qwen）都用 PyTorch 训练。
+- **JAX**：Google 神殿的道阵基。跟 TPU（道石）天生一对。Gemini、PaLM 都是 JAX + TPU 炼出来的。
+- **TensorFlow**：昔日的王。还在大量生产系统中运行，但新项目越来越少有人选它。像一座曾经辉煌的古阵基，还在发光发热，但已经不再是主流。
 
 **遗落的重要事件**:
 - 2020：AlphaFold 2。DeepMind 解决了生物学 50 年悬案——蛋白质折叠预测。AI 第一次在自然科学领域做出诺贝尔级别的贡献。2024 年 Hassabis 和 Jumper 因此获得诺贝尔化学奖。
@@ -193,7 +193,7 @@
 
 - 2022-03：InstructGPT 论文。OpenAI 提出 RLHF：先训 Reward Model 学人类偏好，再用 PPO 让模型跟人类对齐。
 - 2022-11：ChatGPT 发布。基于 GPT-3.5 + RLHF。全球用户暴增。AI 从实验室走入千家万户。
-- 2023-02：Google 匆忙发布 Bard。底层是 LaMDA（对话模型），后切换到 PaLM 2。发布会上 Bard 当场答错了一个关于韦伯望远镜的问题，Google 股价一天蒸发 1000 亿美元。修仙界评价：「丹药没炼好就急着出炉，走火入魔了。」
+- 2023-02：Google 匆忙发布 Bard。底层是 LaMDA（对话模型），后切换到 PaLM 2。发布会上 Bard 当场答错了一个关于韦伯望远镜的问题，Google 股价一天蒸发 1000 亿美元。修仙界评价：「神兽还没驯好就急着放出来，当场失控。」
 - 2023-03：GPT-4 发布。多模态。在各种考试中达到人类顶尖水平。
 - 2023：Anthropic 发布 Claude。提出 Constitutional AI（宪法 AI）。用 AI 监督 AI 的对齐方案。
 - DPO 横空出世。Stanford 证明可以绕过 Reward Model 直接优化偏好。简化了对齐流程。
@@ -205,7 +205,7 @@
 - 2019-2023：微软（蔚蓝世家）前后投入 130 亿美元供奉 OpenAI。换来独占协议——OpenAI 的模型只能通过 Azure 对外出售。Copilot 全线产品接入 GPT。微软从一个卖 Office 的变成了 AI 时代的头号玩家。
 - 2023-09：Amazon（云霄天网）投资 Anthropic 12.5 亿美元。开启了对 Claude 的供奉之路。
 - 2023-11：**OpenAI 内乱**。董事会突然罢免 Sam Altman（天策上将）。Ilya Sutskever（须菩提祖师）参与了政变，但随后又反悔。微软的 Satya Nadella 立刻表态愿意接收 OpenAI 全体员工。五天后 Altman 回归。Ilya 失势，后出走创立 SSI（安全超级智能）。这是修仙界千年来最大的一次宫斗。
-- 2023-12：Google 发布 Gemini 模型（Nano/Pro/Ultra 三档）。这是 Google 的反击——终于拿出了一个能跟 GPT-4 正面对抗的丹药。
+- 2023-12：Google 发布 Gemini 模型（Nano/Pro/Ultra 三档）。这是 Google 的反击——终于拿出了一头能跟 GPT-4 正面对抗的神兽。
 
 **关键功法**: RLHF（天人感应）、PPO（近端策略优化）、DPO（直接偏好优化）、Constitutional AI（道德天条）
 **四大法器**: Actor、Critic、Reward Model、Reference Model
@@ -234,7 +234,7 @@
 **开源 vs 闭源**: Meta「以开制闭」战略 vs OpenAI「安全至上」封闭策略
 
 **东方崛起详录**:
-- 2023-03：面壁智能成立。清华系。后推出 MiniCPM 系列——证明"小丹也有大道"，端侧小模型性能逼近大模型。
+- 2023-03：面壁智能成立。清华系。后推出 MiniCPM 系列——证明"小兽也有大道"，端侧小模型性能逼近大模型。
 - 2023-03：月之暗面成立。杨植麟（月影侯），清华 Transformer-XL 作者。主攻长上下文。
 - 2023-09：智谱 AI 发布 ChatGLM2。清华唐杰教授门下。GLM 系列从学术走向商业。2026 年港股上市。
 - 2023-09：百川智能（王小川）、零一万物（李开复）相继入场。"AI 六小龙"格局初成。
@@ -292,24 +292,24 @@
 修仙界最大的一桩供奉关系终于走到了尽头：
 
 - 2024-03：微软暗度陈仓——收编 Inflection AI 的创始人 Mustafa Suleyman（叛神之子，DeepMind 联合创始人）和大部分团队，成立 Microsoft AI 部门。信号很明确：微软不想只做 OpenAI 的提款机了。
-- 2024-02：Google 把 Bard 改名为 Gemini。从 LaMDA → PaLM → Gemini，Google 的丹药终于从「发布会翻车」进化到了能跟 GPT-4 掰手腕的水平。
+- 2024-02：Google 把 Bard 改名为 Gemini。从 LaMDA → PaLM → Gemini，Google 的神兽终于从「发布会翻车」进化到了能跟 GPT-4 掰手腕的水平。
 - 2025-10：微软与 OpenAI 重新谈判。微软持有 OpenAI 约 27% 的股份（价值 ~1350 亿美元），但关系已经裂了。
 - 2026-04：**独占协议终结**。OpenAI 单方面结束了微软的模型独占权。130 亿美元投进去，6 年独占说没就没了。微软掌门 Satya Nadella 面色铁青（推测）。
 - 2026-06：微软在 Build 2026 发布 MAI-Thinking-1。正式把 OpenAI 从 Copilot 中替换掉。Mustafa Suleyman 站在台上，宣告微软从此有了自己的修炼之路。从供奉者变成了竞争者——修仙界格局再次剧变。
 
 **Amazon 的豪赌**
 
-- 2024-2026：Amazon 对 Anthropic 的供奉从 40 亿美元追加到 290 亿美元，承诺十年 1000 亿美元。这不是供奉了，这是把整个灵脉矿山抵押给了 Anthropic。同时 Amazon Bedrock 成了修仙界最大的"丹药超市"——什么门派的丹药都卖，不挑。
+- 2024-2026：Amazon 对 Anthropic 的供奉从 40 亿美元追加到 290 亿美元，承诺十年 1000 亿美元。这不是供奉了，这是把整个灵脉矿山抵押给了 Anthropic。同时 Amazon Bedrock 成了修仙界最大的"神兽超市"——什么门派的神兽都卖，不挑。
 
 **Google 的道统传承：LaMDA → Bard → Gemini**
 
 Google 的模型演化堪称修仙界最曲折的一条道统：
-- **LaMDA（2021）**: 对话语言模型。一个 Google 工程师声称它"有意识"，闹得满城风雨。丹药本身不算出彩，但制造的话题量满分。
+- **LaMDA（2021）**: 对话语言模型。一个 Google 工程师声称它"有意识"，闹得满城风雨。神兽本身不算出彩，但制造的话题量满分。
 - **PaLM（2022）**: 540B 参数。Google 的 Scaling 大作。TPU Pod 级灵脉投入。
 - **Bard（2023.02）**: Google 对 ChatGPT 的仓促回应。底层先用 LaMDA 后换 PaLM 2。发布会翻车是修仙界的经典笑话。
-- **Gemini 模型（2023.12）**: Google DeepMind 全力打造。Nano/Pro/Ultra 三档。终于拿出了有竞争力的丹药。
+- **Gemini 模型（2023.12）**: Google DeepMind 全力打造。Nano/Pro/Ultra 三档。终于拿出了有竞争力的神兽。
 - **Gemini 品牌统一（2024.02）**: Bard 改名 Gemini。从此 Google 的 AI 产品全部统一到 Gemini 旗号下。
-- **Gemini 2.0/2.5/3（2025-2026）**: 思考模型、多模态、Flash 系列。Google 终于在丹药品质上追平甚至超越了部分对手。
+- **Gemini 2.0/2.5/3（2025-2026）**: 思考模型、多模态、Flash 系列。Google 终于在神兽品质上追平甚至超越了部分对手。
 
 **关键功法**: DSA 动态稀疏注意力、Context Parallelism、Expert Parallelism
 **门派大洗牌**: 姚顺雨（思维树真人）从 OpenAI 到腾讯混元。生广明从字节到腾讯。微软自立门户。

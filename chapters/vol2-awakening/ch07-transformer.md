@@ -144,9 +144,7 @@ Ashish Vaswani 和 Niki Parmar 一起创立了 Adept AI（估值 10 亿美元）
 
 **Jakob Uszkoreit** 创立了 Inceptive，做 RNA 药物设计。
 
-**Łukasz Kaiser** 留在了 Google 一段时间，后来也出去创业了。
-
-**Łukasz Kaiser** 是八人中唯一没有创业的。他去了 OpenAI，参与了一个叫 Q* 的神秘项目。
+**Łukasz Kaiser** 是八人中唯一没有创业的。他去了 OpenAI，参与了一些核心研究项目。
 
 八个人，八条路。他们创办的公司（除了 Polosukhin 的区块链）全部基于 Transformer 技术。加在一起估值超过百亿美元。
 

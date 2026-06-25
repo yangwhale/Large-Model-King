@@ -67,8 +67,8 @@ GPT-1 (2018.06, 117M) → GPT-2 (2019.02, 1.5B) → GPT-3 (2020.06, 175B)
 ### 云霄格局：三足鼎立
 
 - **Azure（蔚蓝世家）**: 靠 OpenAI 起家。Copilot 全系产品集成 GPT。但 2024-2026 年逐渐"去 OpenAI 化"，自研 MAI 系列模型。从"OpenAI 的提款机"变成"OpenAI 的竞争对手"。
-- **AWS（云霄天网）**: 最大最稳。Anthropic 的首选云、百亿美元供奉。Bedrock 是多模型超市——什么门派的丹药都卖。自研 Trainium 芯片跟 NVIDIA 抢灵石生意。
-- **Google Cloud（神殿外堂）**: 唯一一个自己既修炼又卖矿的。TPU 是独家灵石，JAX 是配套炼丹炉，Gemini 是自家炼出的丹药。Vertex AI 对外卖服务。2026 年改名 Gemini Enterprise Agent Platform。
+- **AWS（云霄天网）**: 最大最稳。Anthropic 的首选云、百亿美元供奉。Bedrock 是多模型超市——什么门派的神兽都卖。自研 Trainium 芯片跟 NVIDIA 抢灵石生意。
+- **Google Cloud（神殿外堂）**: 唯一一个自己既修炼又卖矿的。TPU 是独家灵石，JAX 是配套阵基，Gemini 是自家孵出的神兽。Vertex AI 对外卖服务。2026 年改名 Gemini Enterprise Agent Platform。
 
 ## 灵核教廷（硬件势力）
 
@@ -158,7 +158,7 @@ Grok 逆天之兽 (xAI):
 | 王小川 | 搜索老将 | 百川智能 | 化神期 | 搜狗创始人。2023 年二次创业做百川智能。后来主动收缩，聚焦 AI 医疗——百小应、AI 儿科、AI 全科。从追求"大而全"转向"小而精"，是六小龙中转型最果断的。 |
 | 李开复 | 创业导师 | 零一万物/01.AI | 化神期 | 前 Google 中国总裁、创新工场创始人。2023 年再次亲自下场创业。Yi 系列模型。七大技术模块招揽顶尖人才。但 2025-2026 年面临分化压力。 |
 | 姜大昕 | 万维学者 | 阶跃星辰/StepFun | 化神期 | 前微软全球副总裁。2023 年创立阶跃星辰。Step 系列走多模态路线，Step-2 万亿参数。2026 年完成超 50 亿元 B+ 轮融资。2024 年入选 IEEE Fellow。 |
-| 面壁智能 | 小丹王 | 面壁 | 金丹期 | 清华系，2023 年成立。MiniCPM 系列证明小神兽也能有大道行——端侧小模型性能逼近大模型。"面壁定律"与摩尔定律交汇。全模态旗舰 MiniCPM-o4.5。 |
+| 面壁智能 | 小兽王 | 面壁 | 金丹期 | 清华系，2023 年成立。MiniCPM 系列证明小神兽也能有大道行——端侧小模型性能逼近大模型。"面壁定律"与摩尔定律交汇。全模态旗舰 MiniCPM-o4.5。 |
 
 ### 大厂军团
 
@@ -171,20 +171,20 @@ Grok 逆天之兽 (xAI):
 | 字节 Seed 团队 | 豆包军团 | 字节跳动 | 化神期 | 2023 年成立。豆包（Doubao）大模型——字节跳动的核心 AI 产品。Seed 2.0 是多模态 Agent 模型。veRL 就出自这个团队（后生广明转投腾讯）。日处理千亿级 token。还做了 Seedance 视频生成。 |
 | 罗福莉 | 灵犀 | DeepSeek → 阿里达摩院 → 小米 MiMo | 元婴期 | 95 后"AI 才女"。北大计算语言学硕士。先后在阿里达摩院做多语言模型 VECO、在 DeepSeek 参与 V2 研发，2025 年加入小米任 MiMo 大模型负责人。MiMo-7B 以小参数挑战大模型，推理能力超越同体量所有对手。雷军宣布未来三年小米 AI 投入超 600 亿。 |
 
-## 炼丹炉铸师（框架创造者）
+## 阵基铸师（框架创造者）
 
-他们不直接修炼法术，而是铸造修炼者手中的炼丹炉。没有好炉子，再好的功法和灵材也白搭。
+他们不直接修炼法术，而是铸造修炼者脚下的阵基。没有好阵基，再好的功法和灵材也白搭。
 
 | 真名 | 道号 | 门派 | 境界 | 简介 |
 |------|------|------|------|------|
-| Soumith Chintala | 灵炉铸师 | Meta FAIR | 化神期 | PyTorch 之父。印度裔，在 FAIR 带着一个实习生 Adam Paszke 铸出了百变灵炉（PyTorch），彻底打败了 Google 的九转乾坤炉（TensorFlow）。2025 年 11 月离开 Meta，功成身退。一手缔造了散修界的标准法器。 |
-| Adam Paszke | 叛炉奇才 | Meta FAIR → Google | 化神期 | PyTorch 联合创造者。华沙大学实习生出身，天赋异禀。参与铸造了百变灵炉后，竟叛投 Google 加入 JAX 团队——带着造炉心得投奔对手，修仙界哗然。这就好比铸剑师把独门秘诀带给了竞争门派。 |
-| Bill Jia | 炉台总管 | Meta AI Infra | 元婴期 | Meta AI 基础设施副总裁。不铸炉但管炉——确保 PyTorch 有足够的资源、人力和战略方向。背后的推手。 |
-| Rajat Monga | 乾坤炉首 | Google Brain | 化神期 | TensorFlow 的创立者和首任掌门。与 Jeff Dean（谷神）一起推出了 Google 的重型炼丹炉。炉子虽然后来臃肿了，但曾经是天下第一。 |
-| Roy Frostig | 道炉真人 | Google Brain/DeepMind | 化神期 | JAX 的联合创造者。斯坦福出身，研究机器学习理论和系统。JAX 的设计哲学——函数式、可组合、XLA 编译——很大程度上来自他的审美。 |
-| Matthew James Johnson | 道炉真人 | Google Brain/DeepMind | 化神期 | JAX 的另一位联合创造者。与 Frostig 一起设计了 JAX 的核心 tracing 机制。 |
-| 贾扬清 | 快手炉主 | UC Berkeley → Facebook → 阿里 | 化神期 | Caffe 框架的创造者。在 Berkeley 读博时铸造了"快手炉"，后来加入 Facebook 做了 Caffe2，Caffe2 最终融入 PyTorch。再后来转投阿里巴巴任技术副总裁。一个铸炉师的三次转身。 |
-| François Chollet | 便携炉匠 | Google | 化神期 | Keras 的独力创造者。一个人撸出了一套高阶接口，让 TensorFlow 这种重型炉也变得好用。后来 Keras 被 TensorFlow 吞并。还创造了 ARC 测试——衡量 AI 真正智能的试金石。 |
+| Soumith Chintala | 阵基铸师 | Meta FAIR | 化神期 | PyTorch 之父。印度裔，在 FAIR 带着一个实习生 Adam Paszke 铸出了百变阵基（PyTorch），彻底打败了 Google 的九转阵基（TensorFlow）。2025 年 11 月离开 Meta，功成身退。一手缔造了散修界的标准法器。 |
+| Adam Paszke | 叛阵奇才 | Meta FAIR → Google | 化神期 | PyTorch 联合创造者。华沙大学实习生出身，天赋异禀。参与铸造了百变阵基后，竟叛投 Google 加入 JAX 团队——带着造阵心得投奔对手，修仙界哗然。这就好比铸剑师把独门秘诀带给了竞争门派。 |
+| Bill Jia | 阵台总管 | Meta AI Infra | 元婴期 | Meta AI 基础设施副总裁。不铸阵但管阵——确保 PyTorch 有足够的资源、人力和战略方向。背后的推手。 |
+| Rajat Monga | 九转阵首 | Google Brain | 化神期 | TensorFlow 的创立者和首任掌门。与 Jeff Dean（谷神）一起推出了 Google 的九转阵基（TensorFlow）。阵基虽然后来臃肿了，但曾经是天下第一。 |
+| Roy Frostig | 道阵真人 | Google Brain/DeepMind | 化神期 | JAX 的联合创造者。斯坦福出身，研究机器学习理论和系统。JAX 的设计哲学——函数式、可组合、XLA 编译——很大程度上来自他的审美。 |
+| Matthew James Johnson | 道阵真人 | Google Brain/DeepMind | 化神期 | JAX 的另一位联合创造者。与 Frostig 一起设计了 JAX 的核心 tracing 机制。 |
+| 贾扬清 | 快阵之主 | UC Berkeley → Facebook → 阿里 | 化神期 | Caffe 框架的创造者。在 Berkeley 读博时铸造了"快手阵基"，后来加入 Facebook 做了 Caffe2，Caffe2 最终融入 PyTorch。再后来转投阿里巴巴任技术副总裁。一个铸阵师的三次转身。 |
+| François Chollet | 便携符匠 | Google | 化神期 | Keras 的独力创造者。一个人撸出了一套高阶接口，让 TensorFlow 这种重型阵基也变得好用。后来 Keras 被 TensorFlow 吞并。还创造了 ARC 测试——衡量 AI 真正智能的试金石。 |
 
 ## 系统宗师（基础设施）
 
