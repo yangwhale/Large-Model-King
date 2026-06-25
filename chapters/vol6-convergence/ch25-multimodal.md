@@ -129,6 +129,6 @@ GPT-4o 能看能听能说能画。Gemini 能读能搜能看视频能写代码。
 ---
 
 📖 **相关章节**
-- 想了解 FlashAttention 如何让长上下文（多模态的基础）成为可能 → [番外·闪念真人]
-- 想了解 Google 的 TPU 道核如何支撑百万 token → [第02章·灵核之争]
-- 想了解 Agent 如何在多模态基础上学会独立行动 → [第26章·自主之兽]
+- 想了解 FlashAttention 如何让长上下文（多模态的基础）成为可能 → [番外·闪念真人](../vol4-taming/ch15b-flashattention.md)
+- 想了解 Google 的 TPU 道核如何支撑百万 token → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)
+- 想了解 Agent 如何在多模态基础上学会独立行动 → [第26章·自主之兽](ch26-agents.md)

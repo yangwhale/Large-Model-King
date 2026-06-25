@@ -291,5 +291,5 @@ CNN 只能看图。RNN 只能处理序列。GAN 只能生成图片。AlphaGo 只
 📖 **相关章节**
 - 想了解 AlexNet 如何点燃灵气复苏 → [第05章·混沌初开](ch05-alexnet.md)
 - 想了解 Transformer 如何终结百家争鸣，一统天下 → [第07章·注意力法典](ch07-transformer.md)
-- 想了解 NVIDIA 如何从游戏公司变成万亿灵核帝国 → [第02章·灵核之争]
+- 想了解 NVIDIA 如何从游戏公司变成万亿灵核帝国 → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)
 - 想了解 Scaling Law 如何把深度学习推向极限 → [第09章·大道至简](../vol3-battle/ch09-scaling-law.md)

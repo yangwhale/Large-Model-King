@@ -119,6 +119,6 @@ Agent 时代的竞争维度变了——不是"回答有多好"，而是"**任务
 ---
 
 📖 **相关章节**
-- 想了解 Claude Computer Use 背后的 Anthropic → [第14章·宪法道人]
-- 想了解 Coding Agent 的专题 → [第27章·造物之争]
-- 想了解姚顺雨从学术到产业的完整故事 → [第24章·百家论道]
+- 想了解 Claude Computer Use 背后的 Anthropic → [第14章·宪法道人](../vol3-battle/ch14-anthropic.md)
+- 想了解 Coding Agent 的专题 → [第27章·造物之争](ch27-coding-agents.md)
+- 想了解姚顺雨从学术到产业的完整故事 → [第24章·百家论道](../vol5-east/ch24-six-dragons.md)

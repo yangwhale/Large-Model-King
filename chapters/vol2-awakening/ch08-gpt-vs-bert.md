@@ -254,7 +254,7 @@ BERT 没有死。它活在每一个搜索引擎的排序算法里，活在每一
 ---
 
 📖 **相关章节**
-- 想了解 Transformer 的诞生和注意力七圣 → [第07章·注意力法典]
-- 想了解 Scaling Law 如何证明"越大越强" → [第09章·大道至简]
-- 想了解 GPT 路线如何一路走到 ChatGPT → [第10章·天下震动]
-- 想了解 Google 错失大模型时代后的反击 → [第12章·神殿之急]
+- 想了解 Transformer 的诞生和注意力七圣 → [第07章·注意力法典](ch07-transformer.md)
+- 想了解 Scaling Law 如何证明"越大越强" → [第09章·大道至简](../vol3-battle/ch09-scaling-law.md)
+- 想了解 GPT 路线如何一路走到 ChatGPT → [第10章·天下震动](../vol3-battle/ch10-chatgpt.md)
+- 想了解 Google 错失大模型时代后的反击 → [第12章·神殿之急](../vol3-battle/ch12-google-gemini.md)

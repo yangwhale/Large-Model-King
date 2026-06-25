@@ -291,8 +291,8 @@ NVIDIA 股价暴跌近 17%。
 ---
 
 📖 **相关章节**
-- 想了解 GRPO 群兽竞逐法的完整技术原理 → [第17章·群兽竞逐]
-- 想了解 R1 之前 PPO 和 DPO 的对比 → [第15章·四象驯兽] / [第16章·直觉驯化]
-- 想了解 MoE 万象门和 Scaling Law → [第09章·大道至简]
-- 想了解灵核教主黄仁勋和 NVIDIA → [第02章·灵核之争]
-- 想了解 ChatGPT 如何引爆修仙界 → [第10章·天下震动]
+- 想了解 GRPO 群兽竞逐法的完整技术原理 → [第17章·群兽竞逐](../vol4-taming/ch17-grpo.md)
+- 想了解 R1 之前 PPO 和 DPO 的对比 → [第15章·四象驯兽](../vol4-taming/ch15-ppo-rlhf.md) / [第16章·直觉驯化](../vol4-taming/ch16-dpo.md)
+- 想了解 MoE 万象门和 Scaling Law → [第09章·大道至简](../vol3-battle/ch09-scaling-law.md)
+- 想了解灵核教主黄仁勋和 NVIDIA → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)
+- 想了解 ChatGPT 如何引爆修仙界 → [第10章·天下震动](../vol3-battle/ch10-chatgpt.md)

@@ -23,15 +23,52 @@
 
 **不用从头读到尾。** 七篇三十二章，每章独立成篇，按兴趣跳读：
 
-| 篇 | 你想知道什么 | 章节 |
-|----|------------|------|
-| 篇一·天地造化 | 为什么 AI 这么烧钱？灵核、灵脉、阵基都是什么？ | 互联网前史 · GPU/TPU 硬件战 · PyTorch vs JAX · 云厂商博弈 |
-| 篇二·神兽觉醒 | AI 怎么一步步走到今天？从 AlexNet 到 Transformer | AlexNet · CNN/GAN/ResNet · Transformer 八作者 · GPT vs BERT |
-| 篇三·万兽争霸 | 商战！宫斗！最精彩的人物故事 | ChatGPT · OpenAI 宫变 · Google 翻车到涅槃 · 微软分手 · Anthropic |
-| 篇四·御兽之法 | RLHF/GRPO 到底是什么？怎么驯服神兽？ | PPO 四象阵 · DPO 简约革命 · GRPO 群兽竞逐 · FlashAttention · veRL |
-| 篇五·东方崛起 | DeepSeek/Kimi/Qwen 的故事 | 深渊剑主 · 开源之战 · 芯片制裁 · 月影侯 · 六小龙格局 |
-| 篇六·万法归一 | AI 最前沿在发生什么？ | 多模态万象兽 · Agent 自主行动 · Coding Agent · 百万级上下文 |
-| 篇七·渡劫之路 | AGI 什么时候来？AI 有意识吗？ | AGI 之问 · 世界模型 · 意识之辩 · 人兽共生 |
+### 篇一·天地造化 — 为什么 AI 这么烧钱？
+- [第01章·灵脉铸造](chapters/vol1-infrastructure/ch01-internet.md) — 互联网如何孕育了一切
+- [第02章·灵核之争](chapters/vol1-infrastructure/ch02-chips.md) — GPU/TPU 硬件战争
+- [第03章·育兽法阵](chapters/vol1-infrastructure/ch03-frameworks.md) — PyTorch vs TensorFlow vs JAX
+- [第04章·云霄三圣](chapters/vol1-infrastructure/ch04-cloud.md) — AWS/Azure/GCP 的博弈
+
+### 篇二·神兽觉醒 — AI 怎么一步步走到今天？
+- [第05章·混沌初开](chapters/vol2-awakening/ch05-alexnet.md) — AlexNet 与深度学习觉醒
+- [第06章·百家争鸣](chapters/vol2-awakening/ch06-golden-age.md) — CNN/GAN/ResNet 黄金时代
+- [第07章·注意力法典](chapters/vol2-awakening/ch07-transformer.md) — Transformer 降世
+- [第08章·两条大道](chapters/vol2-awakening/ch08-gpt-vs-bert.md) — GPT vs BERT 路线之争
+
+### 篇三·万兽争霸 — 商战！宫斗！
+- [第09章·大道至简](chapters/vol3-battle/ch09-scaling-law.md) — Scaling Law 与 GPT-3 涌现
+- [第10章·天下震动](chapters/vol3-battle/ch10-chatgpt.md) — ChatGPT 引爆全球
+- [第11章·宫变惊雷](chapters/vol3-battle/ch11-openai-coup.md) — OpenAI 的五天宫斗
+- [第12章·神殿之急](chapters/vol3-battle/ch12-google-gemini.md) — Google 从翻车到涅槃
+- [第13章·蔚蓝之变](chapters/vol3-battle/ch13-microsoft-openai.md) — 微软与 OpenAI 分手
+- [第14章·宪法道人](chapters/vol3-battle/ch14-anthropic.md) — Anthropic 的另一条路
+
+### 篇四·御兽之法 — RLHF/GRPO 到底是什么？
+- [第15章·四象驯兽](chapters/vol4-taming/ch15-ppo-rlhf.md) — PPO 与 RLHF
+- [番外·闪念真人](chapters/vol4-taming/ch15b-flashattention.md) — FlashAttention 与 Tri Dao
+- [第16章·直觉驯化](chapters/vol4-taming/ch16-dpo.md) — DPO 的简约革命
+- [第17章·群兽竞逐](chapters/vol4-taming/ch17-grpo.md) — GRPO 与 DeepSeek R1
+- [第18章·诸法争鸣](chapters/vol4-taming/ch18-variants.md) — DAPO/KTO/SimPO 百花齐放
+- [第19章·万法归一](chapters/vol4-taming/ch19-verl.md) — veRL 与炼器宗师
+
+### 篇五·东方崛起 — DeepSeek/Kimi/Qwen 的故事
+- [第20章·深渊剑主](chapters/vol5-east/ch20-deepseek.md) — 梁文锋与 DeepSeek
+- [第21章·传道授业](chapters/vol5-east/ch21-opensource.md) — 开源之战
+- [第22章·芯片之困](chapters/vol5-east/ch22-chip-sanctions.md) — 制裁、断供与突围
+- [第23章·月影侯](chapters/vol5-east/ch23-kimi.md) — 杨植麟与 Kimi
+- [第24章·百家论道](chapters/vol5-east/ch24-six-dragons.md) — 六小龙格局
+
+### 篇六·万法归一 — AI 最前沿在发生什么？
+- [第25章·万象觉醒](chapters/vol6-convergence/ch25-multimodal.md) — 多模态神兽
+- [第26章·自主之兽](chapters/vol6-convergence/ch26-agents.md) — Agent 学会独立行动
+- [第27章·造物之争](chapters/vol6-convergence/ch27-coding-agents.md) — Coding Agent 大战
+- [第28章·百万神识](chapters/vol6-convergence/ch28-long-context.md) — 长上下文极限追求
+
+### 篇七·渡劫之路 — AGI 什么时候来？
+- [第29章·渡劫之问](chapters/vol7-future/ch29-agi.md) — AGI 是曙光还是幻影
+- [第30章·世界之兽](chapters/vol7-future/ch30-world-model.md) — 理解物理规律的神兽
+- [第31章·道心之辩](chapters/vol7-future/ch31-consciousness.md) — AI 有没有意识
+- [第32章·人兽共生](chapters/vol7-future/ch32-coexistence.md) — 终章
 
 详见 [总纲 · 七篇三十二章](outline/master-outline.md)
 

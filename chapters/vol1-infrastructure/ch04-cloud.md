@@ -315,10 +315,10 @@ Google Cloud有TPU道核和自研神兽——当你的修炼功法深度依赖JA
 ---
 
 📖 **相关章节**
-- 想了解灵核（GPU/TPU）的前世今生 → [第02章·灵核之争]
-- 想了解 OpenAI 的宫斗和分裂 → [第11章·宫变惊雷]
-- 想了解 Anthropic 的 Claude 是怎么炼成的 → [第14章·宪法道人]
-- 想了解 Google 从 Bard 翻车到 Gemini 涅槃 → [第12章·神殿之急]
-- 想了解 Meta 开源 Llama 的战略 → [第21章·传道授业]
+- 想了解灵核（GPU/TPU）的前世今生 → [第02章·灵核之争](ch02-chips.md)
+- 想了解 OpenAI 的宫斗和分裂 → [第11章·宫变惊雷](../vol3-battle/ch11-openai-coup.md)
+- 想了解 Anthropic 的 Claude 是怎么炼成的 → [第14章·宪法道人](../vol3-battle/ch14-anthropic.md)
+- 想了解 Google 从 Bard 翻车到 Gemini 涅槃 → [第12章·神殿之急](../vol3-battle/ch12-google-gemini.md)
+- 想了解 Meta 开源 Llama 的战略 → [第21章·传道授业](../vol5-east/ch21-opensource.md)
 
 *[第03章 育兽法阵](ch03-frameworks.md) | **第04章 云霄三圣** | [第05章 混沌初开](../vol2-awakening/ch05-alexnet.md)*

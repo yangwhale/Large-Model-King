@@ -133,7 +133,7 @@ Gemini 1.5 Pro 的 1M token 上下文就是在 TPU Pod 上实现的。
 ---
 
 📖 **相关章节**
-- 想了解 FlashAttention 如何打破平方诅咒 → [番外·闪念真人]
-- 想了解 DeepSeek V4 的 CSA + HCA → [第20章·深渊剑主]
-- 想了解 Kimi 的 Mooncake 架构 → [第23章·月影侯]
-- 想了解 TPU 道核的架构优势 → [第02章·灵核之争]
+- 想了解 FlashAttention 如何打破平方诅咒 → [番外·闪念真人](../vol4-taming/ch15b-flashattention.md)
+- 想了解 DeepSeek V4 的 CSA + HCA → [第20章·深渊剑主](../vol5-east/ch20-deepseek.md)
+- 想了解 Kimi 的 Mooncake 架构 → [第23章·月影侯](../vol5-east/ch23-kimi.md)
+- 想了解 TPU 道核的架构优势 → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)

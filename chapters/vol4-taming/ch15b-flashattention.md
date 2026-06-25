@@ -187,7 +187,7 @@ Tri Dao 同时身兼三个角色——大学教授、创业公司首席科学家
 ---
 
 📖 **相关章节**
-- 想了解 Attention 法典本身是怎么诞生的 → [第07章·注意力法典]
-- 想了解长上下文竞赛 → [第28章·百万神识]
-- 想了解 FlashAttention 在 veRL 中的应用 → [第19章·万法归一]
-- 想了解灵核（GPU）的 HBM/SRAM 层级结构 → [第02章·灵核之争]
+- 想了解 Attention 法典本身是怎么诞生的 → [第07章·注意力法典](../vol2-awakening/ch07-transformer.md)
+- 想了解长上下文竞赛 → [第28章·百万神识](../vol6-convergence/ch28-long-context.md)
+- 想了解 FlashAttention 在 veRL 中的应用 → [第19章·万法归一](ch19-verl.md)
+- 想了解灵核（GPU）的 HBM/SRAM 层级结构 → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)

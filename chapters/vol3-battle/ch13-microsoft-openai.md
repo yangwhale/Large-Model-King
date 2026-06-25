@@ -316,6 +316,6 @@ Google 有 Gemini。Anthropic 有 Claude。Meta 有 Llama。
 📖 **相关章节**
 - 想了解 OpenAI 宫变的完整五天 → [第11章·宫变惊雷](ch11-openai-coup.md)
 - 想了解 Google 如何从 Bard 翻车到 Gemini 涅槃 → [第12章·神殿之急](ch12-google-gemini.md)
-- 想了解 Anthropic 从 OpenAI 分裂的更早一次出走 → [第14章·宪法道人]
+- 想了解 Anthropic 从 OpenAI 分裂的更早一次出走 → [第14章·宪法道人](ch14-anthropic.md)
 - 想了解 Scaling Law 如何驱动了这场军备竞赛 → [第09章·大道至简](ch09-scaling-law.md)
 - 想了解 ChatGPT 如何引爆一切 → [第10章·天下震动](ch10-chatgpt.md)

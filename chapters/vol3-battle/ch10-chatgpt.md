@@ -162,7 +162,7 @@ ChatGPT 的冲击波远不止于技术和商业。
 ---
 
 📖 **相关章节**
-- 想了解 ChatGPT 背后的 RLHF/PPO 技术 → [第15章·四象驯兽]
-- 想了解 Google 被打懵后怎么反击 → [第12章·神殿之急]
-- 想了解 ChatGPT 引爆的 OpenAI 内部权力斗争 → [第11章·宫变惊雷]
-- 想了解灵核教主 Jensen Huang 怎么赚翻了 → [第02章·灵核之争]
+- 想了解 ChatGPT 背后的 RLHF/PPO 技术 → [第15章·四象驯兽](../vol4-taming/ch15-ppo-rlhf.md)
+- 想了解 Google 被打懵后怎么反击 → [第12章·神殿之急](ch12-google-gemini.md)
+- 想了解 ChatGPT 引爆的 OpenAI 内部权力斗争 → [第11章·宫变惊雷](ch11-openai-coup.md)
+- 想了解灵核教主 Jensen Huang 怎么赚翻了 → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)

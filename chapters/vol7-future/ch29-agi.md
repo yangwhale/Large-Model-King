@@ -121,6 +121,6 @@ Kaplan 2020 年发现的幂律关系——参数翻倍、智元翻倍，Loss 稳
 ---
 
 📖 **相关章节**
-- 想了解 Scaling Law 的发现和演化 → [第09章·大道至简]
-- 想了解 o1/o3 推理能力的突破 → [第17章·群兽竞逐]
-- 想了解 Yann LeCun 的世界模型理论 → [第30章·世界之兽]
+- 想了解 Scaling Law 的发现和演化 → [第09章·大道至简](../vol3-battle/ch09-scaling-law.md)
+- 想了解 o1/o3 推理能力的突破 → [第17章·群兽竞逐](../vol4-taming/ch17-grpo.md)
+- 想了解 Yann LeCun 的世界模型理论 → [第30章·世界之兽](ch30-world-model.md)

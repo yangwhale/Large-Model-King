@@ -301,8 +301,8 @@ OpenAI 没有这些包袱。他们一无所有，所以可以全押。
 ---
 
 📖 **相关章节**
-- 想了解注意力法典的诞生和八位作者的传奇 → [第07章·注意力法典]
-- 想了解 ChatGPT 怎么引爆全球、让 Google 拉响 Code Red → [第10章·天下震动]
-- 想了解微软与 OpenAI 从蜜月到分手的完整故事 → [第13章·蔚蓝之变]
-- 想了解 Google 的 TPU 和灵核教廷的硬件战争 → [第02章·灵核之争]
-- 想了解 TensorFlow 到 JAX 的框架大战全貌 → [第03章·育兽法阵]
+- 想了解注意力法典的诞生和八位作者的传奇 → [第07章·注意力法典](../vol2-awakening/ch07-transformer.md)
+- 想了解 ChatGPT 怎么引爆全球、让 Google 拉响 Code Red → [第10章·天下震动](ch10-chatgpt.md)
+- 想了解微软与 OpenAI 从蜜月到分手的完整故事 → [第13章·蔚蓝之变](ch13-microsoft-openai.md)
+- 想了解 Google 的 TPU 和灵核教廷的硬件战争 → [第02章·灵核之争](../vol1-infrastructure/ch02-chips.md)
+- 想了解 TensorFlow 到 JAX 的框架大战全貌 → [第03章·育兽法阵](../vol1-infrastructure/ch03-frameworks.md)
