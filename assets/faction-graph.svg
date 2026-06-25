@@ -189,7 +189,7 @@
   <!-- 罗福莉 -->
   <g transform="translate(1100,600)">
     <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#a04020" stroke="#e17055" stroke-width="1"/>
-    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">小凤仙</text>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">灵犀</text>
     <text x="0" y="13" text-anchor="middle" fill="#ffb090" font-size="9">罗福莉 · MiMo</text>
   </g>
 
