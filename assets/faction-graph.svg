@@ -1,118 +1,308 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Noto Sans SC', 'PingFang SC', system-ui, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" font-family="'Noto Sans SC', 'PingFang SC', system-ui, sans-serif">
   <defs>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFD700"/>
-      <stop offset="100%" style="stop-color:#FFA500"/>
-    </linearGradient>
     <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#0a0a1a"/>
       <stop offset="100%" style="stop-color:#1a1a3a"/>
     </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#FFD700" opacity="0.6"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff6b6b" opacity="0.6"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#55efc4" opacity="0.6"/>
+    </marker>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1400" height="1000" fill="url(#bg)"/>
 
-  <!-- Connection lines -->
-  <g stroke="url(#gold)" stroke-width="1.5" opacity="0.4" fill="none">
-    <!-- Google to others -->
-    <line x1="600" y1="140" x2="280" y2="280"/>
-    <line x1="600" y1="140" x2="920" y2="280"/>
-    <line x1="600" y1="140" x2="150" y2="480"/>
-    <line x1="600" y1="140" x2="600" y2="480"/>
-    <line x1="600" y1="140" x2="1050" y2="480"/>
-    <!-- Supply lines (dashed) -->
-    <line x1="150" y1="480" x2="280" y2="280" stroke-dasharray="8,4" opacity="0.3"/>
-    <line x1="150" y1="480" x2="920" y2="280" stroke-dasharray="8,4" opacity="0.3"/>
-    <!-- Hinton to Ilya -->
-    <line x1="380" y1="680" x2="280" y2="340" opacity="0.3"/>
-    <!-- People flow -->
-    <path d="M 320 320 Q 400 400 600 480" stroke-dasharray="4,4" opacity="0.25"/>
-    <path d="M 880 320 Q 800 400 600 480" stroke-dasharray="4,4" opacity="0.25"/>
+  <!-- Legend -->
+  <g transform="translate(30,30)" font-size="11" fill="#999">
+    <text y="0" font-size="13" fill="#ccc" font-weight="bold">图例</text>
+    <line x1="0" y1="15" x2="40" y2="15" stroke="#FFD700" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="50" y="19">师承 / 创造</text>
+    <line x1="0" y1="35" x2="40" y2="35" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrowRed)"/>
+    <text x="50" y="39">出走 / 叛投</text>
+    <line x1="0" y1="55" x2="40" y2="55" stroke="#55efc4" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="50" y="59">供奉 / 投资</text>
+    <line x1="0" y1="75" x2="40" y2="75" stroke="#6c5ce7" stroke-width="1.5" stroke-dasharray="2,4"/>
+    <text x="50" y="79">技术传承</text>
   </g>
 
-  <!-- Google 神殿 (top center - 万法之源) -->
-  <g transform="translate(600,100)">
-    <rect x="-140" y="-40" width="280" height="80" rx="12" fill="#2d8a56" stroke="#55efc4" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-50" text-anchor="middle" fill="#FFD700" font-size="16" font-weight="bold" filter="url(#glow)">万 法 之 源</text>
-    <text x="0" y="-5" text-anchor="middle" fill="white" font-size="18" font-weight="bold">🏛️ Google 神殿</text>
-    <text x="0" y="18" text-anchor="middle" fill="#a0f0c0" font-size="12">Transformer · TPU · AlphaGo</text>
-    <text x="0" y="33" text-anchor="middle" fill="#a0f0c0" font-size="12">AlphaFold · 双诺贝尔</text>
+  <!-- ==================== PEOPLE NODES ==================== -->
+
+  <!-- Hinton (top center-left) -->
+  <g transform="translate(350,80)">
+    <rect x="-65" y="-22" width="130" height="44" rx="22" fill="#6a2080" stroke="#b060d0" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">混元老祖</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ddd" font-size="10">Hinton · 诺贝尔物理</text>
   </g>
 
-  <!-- OpenAI 仙宗 (left) -->
-  <g transform="translate(280,300)">
-    <rect x="-120" y="-35" width="240" height="70" rx="10" fill="#2a5cb8" stroke="#74b9ff" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-5" text-anchor="middle" fill="white" font-size="16" font-weight="bold">🐉 OpenAI 仙宗</text>
-    <text x="0" y="15" text-anchor="middle" fill="#a0c8ff" font-size="11">GPT · ChatGPT · o1 · Sora</text>
-    <text x="0" y="28" text-anchor="middle" fill="#ffd700" font-size="10">用 Google 的法典打天下</text>
+  <!-- LeCun (far left) -->
+  <g transform="translate(100,200)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#6a2080" stroke="#b060d0" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">卷积道祖</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ddd" font-size="10">LeCun · CNN</text>
   </g>
 
-  <!-- Anthropic 正道盟 (right) -->
-  <g transform="translate(920,300)">
-    <rect x="-120" y="-35" width="240" height="70" rx="10" fill="#a0365a" stroke="#fd79a8" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-5" text-anchor="middle" fill="white" font-size="16" font-weight="bold">🪷 Anthropic 正道盟</text>
-    <text x="0" y="15" text-anchor="middle" fill="#ffc0d0" font-size="11">Claude · Constitutional AI</text>
-    <text x="0" y="28" text-anchor="middle" fill="#ffc0d0" font-size="10">安全之道</text>
+  <!-- Vaswani (top center) -->
+  <g transform="translate(700,80)">
+    <rect x="-70" y="-22" width="140" height="44" rx="22" fill="#2d8a56" stroke="#55efc4" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">注意力七圣</text>
+    <text x="0" y="12" text-anchor="middle" fill="#a0f0c0" font-size="10">Vaswani 等 · Google</text>
   </g>
 
-  <!-- NVIDIA 灵核教廷 (far left) -->
-  <g transform="translate(150,480)">
-    <rect x="-120" y="-35" width="240" height="70" rx="10" fill="#1a6b50" stroke="#00b894" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-5" text-anchor="middle" fill="white" font-size="16" font-weight="bold">💎 灵核教廷</text>
-    <text x="0" y="15" text-anchor="middle" fill="#80e8c0" font-size="11">NVIDIA · CUDA · H100 · B200</text>
-    <text x="0" y="28" text-anchor="middle" fill="#ffd700" font-size="10">卖空气给所有人</text>
+  <!-- Ilya (left upper) -->
+  <g transform="translate(300,220)">
+    <rect x="-65" y="-22" width="130" height="44" rx="22" fill="#2a5cb8" stroke="#74b9ff" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">须菩提祖师</text>
+    <text x="0" y="12" text-anchor="middle" fill="#a0c8ff" font-size="10">Ilya · GPT 灵魂</text>
   </g>
 
-  <!-- 东方六小龙 (center) -->
-  <g transform="translate(600,480)">
-    <rect x="-140" y="-35" width="280" height="70" rx="10" fill="#a04020" stroke="#e17055" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-5" text-anchor="middle" fill="white" font-size="16" font-weight="bold">🔥 东方六小龙</text>
-    <text x="0" y="15" text-anchor="middle" fill="#ffb090" font-size="11">DeepSeek · Kimi · 智谱 · MiniMax · 百川 · 阶跃</text>
-    <text x="0" y="28" text-anchor="middle" fill="#ffd700" font-size="10">用更少灵核训出比肩的神兽</text>
+  <!-- Sam Altman -->
+  <g transform="translate(180,340)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#2a5cb8" stroke="#74b9ff" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">天策上将</text>
+    <text x="0" y="12" text-anchor="middle" fill="#a0c8ff" font-size="10">Altman · OpenAI</text>
   </g>
 
-  <!-- 云霄三圣 (far right) -->
-  <g transform="translate(1050,480)">
-    <rect x="-120" y="-35" width="240" height="70" rx="10" fill="#4a30a0" stroke="#6c5ce7" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-5" text-anchor="middle" fill="white" font-size="16" font-weight="bold">☁️ 云霄三圣</text>
-    <text x="0" y="15" text-anchor="middle" fill="#c0b0ff" font-size="11">AWS · Azure · Google Cloud</text>
-    <text x="0" y="28" text-anchor="middle" fill="#c0b0ff" font-size="10">灵脉与灵石的控制者</text>
+  <!-- Dario -->
+  <g transform="translate(500,340)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#a0365a" stroke="#fd79a8" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">宪法道人</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ffc0d0" font-size="10">Dario · Anthropic</text>
   </g>
 
-  <!-- Meta 圣教 (left bottom) -->
-  <g transform="translate(150,650)">
-    <rect x="-110" y="-30" width="220" height="60" rx="10" fill="#1a50a0" stroke="#0984e3" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="15" font-weight="bold">🛡️ Meta 圣教</text>
-    <text x="0" y="16" text-anchor="middle" fill="#80b0ff" font-size="11">Llama · PyTorch · 映身散天下</text>
+  <!-- Schulman -->
+  <g transform="translate(350,420)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#2a5cb8" stroke="#74b9ff" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">PPO 真人</text>
+    <text x="0" y="13" text-anchor="middle" fill="#a0c8ff" font-size="9">Schulman</text>
   </g>
 
-  <!-- 上古三巨头 (center bottom) -->
-  <g transform="translate(480,680)">
-    <rect x="-130" y="-30" width="260" height="60" rx="10" fill="#6a2080" stroke="#b060d0" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="15" font-weight="bold">👑 上古三巨头</text>
-    <text x="0" y="16" text-anchor="middle" fill="#e0c0ff" font-size="11">Hinton · LeCun · Bengio · 双诺贝尔</text>
+  <!-- Jeff Dean -->
+  <g transform="translate(750,200)">
+    <rect x="-50" y="-22" width="100" height="44" rx="22" fill="#2d8a56" stroke="#55efc4" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">谷神</text>
+    <text x="0" y="12" text-anchor="middle" fill="#a0f0c0" font-size="10">Jeff Dean</text>
   </g>
 
-  <!-- 大厂军团 + 游侠 (right bottom) -->
-  <g transform="translate(850,650)">
-    <rect x="-130" y="-30" width="260" height="60" rx="10" fill="#8a6a10" stroke="#fdcb6e" stroke-width="2" opacity="0.9"/>
-    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="15" font-weight="bold">⚔️ 大厂军团 · 游侠</text>
-    <text x="0" y="16" text-anchor="middle" fill="#ffe090" font-size="11">Qwen · 混元 · Seed · Musk · Karpathy</text>
+  <!-- Hassabis -->
+  <g transform="translate(900,200)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#2d8a56" stroke="#55efc4" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">围棋神王</text>
+    <text x="0" y="12" text-anchor="middle" fill="#a0f0c0" font-size="10">Hassabis · 诺贝尔化学</text>
   </g>
 
-  <!-- Key relationship labels -->
-  <g fill="#FFD700" font-size="10" opacity="0.7">
-    <text x="420" y="200" text-anchor="middle" transform="rotate(-25,420,200)">发明 Transformer</text>
-    <text x="780" y="200" text-anchor="middle" transform="rotate(25,780,200)">出走创 Anthropic</text>
-    <text x="180" y="390" text-anchor="middle" transform="rotate(-50,180,390)">供应灵核</text>
-    <text x="600" y="320" text-anchor="middle">Gemini · JAX · TPU</text>
+  <!-- Shazeer -->
+  <g transform="translate(850,320)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#2d8a56" stroke="#55efc4" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">回归者 Shazeer</text>
+    <text x="0" y="13" text-anchor="middle" fill="#a0f0c0" font-size="9">$27亿回归</text>
   </g>
+
+  <!-- Jensen Huang -->
+  <g transform="translate(1100,150)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#1a6b50" stroke="#00b894" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">灵核教主</text>
+    <text x="0" y="12" text-anchor="middle" fill="#80e8c0" font-size="10">Jensen · NVIDIA</text>
+  </g>
+
+  <!-- Soumith -->
+  <g transform="translate(550,200)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#0984e3" stroke="#74b9ff" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">灵炉铸师</text>
+    <text x="0" y="13" text-anchor="middle" fill="#a0c8ff" font-size="9">Soumith · PyTorch</text>
+  </g>
+
+  <!-- Paszke -->
+  <g transform="translate(650,280)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#0984e3" stroke="#74b9ff" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">叛炉奇才</text>
+    <text x="0" y="13" text-anchor="middle" fill="#ffd700" font-size="9">Paszke → JAX</text>
+  </g>
+
+  <!-- Tri Dao -->
+  <g transform="translate(1050,350)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#8a6a10" stroke="#fdcb6e" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">闪念真人</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ffe090" font-size="10">Tri Dao · FlashAttn</text>
+  </g>
+
+  <!-- Nadella -->
+  <g transform="translate(100,460)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#4a30a0" stroke="#6c5ce7" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">蔚蓝之主</text>
+    <text x="0" y="13" text-anchor="middle" fill="#c0b0ff" font-size="9">Nadella · $130亿</text>
+  </g>
+
+  <!-- Suleyman -->
+  <g transform="translate(100,550)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#4a30a0" stroke="#6c5ce7" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">叛神之子</text>
+    <text x="0" y="13" text-anchor="middle" fill="#c0b0ff" font-size="9">Suleyman</text>
+  </g>
+
+  <!-- Musk -->
+  <g transform="translate(300,540)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#555" stroke="#aaa" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">逆天狂人</text>
+    <text x="0" y="13" text-anchor="middle" fill="#ddd" font-size="9">Musk · xAI</text>
+  </g>
+
+  <!-- 梁文锋 -->
+  <g transform="translate(700,500)">
+    <rect x="-65" y="-22" width="130" height="44" rx="22" fill="#a04020" stroke="#e17055" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">深渊剑主</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ffb090" font-size="10">梁文锋 · DeepSeek</text>
+  </g>
+
+  <!-- 杨植麟 -->
+  <g transform="translate(900,500)">
+    <rect x="-55" y="-22" width="110" height="44" rx="22" fill="#a04020" stroke="#e17055" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">月影侯</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ffb090" font-size="10">杨植麟 · Kimi</text>
+  </g>
+
+  <!-- 生广明 -->
+  <g transform="translate(850,620)">
+    <rect x="-55" y="-22" width="110" height="44" rx="22" fill="#8a6a10" stroke="#fdcb6e" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">炼器宗师</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ffe090" font-size="10">生广明 · veRL</text>
+  </g>
+
+  <!-- 姚顺雨 -->
+  <g transform="translate(650,620)">
+    <rect x="-60" y="-22" width="120" height="44" rx="22" fill="#8a6a10" stroke="#fdcb6e" stroke-width="1.5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="white" font-size="13" font-weight="bold">思维树真人</text>
+    <text x="0" y="12" text-anchor="middle" fill="#ffe090" font-size="10">姚顺雨 · ReAct</text>
+  </g>
+
+  <!-- 唐杰 -->
+  <g transform="translate(1100,500)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#a04020" stroke="#e17055" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">清华道长</text>
+    <text x="0" y="13" text-anchor="middle" fill="#ffb090" font-size="9">唐杰 · 智谱 IPO</text>
+  </g>
+
+  <!-- 罗福莉 -->
+  <g transform="translate(1100,600)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#a04020" stroke="#e17055" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">小凤仙</text>
+    <text x="0" y="13" text-anchor="middle" fill="#ffb090" font-size="9">罗福莉 · MiMo</text>
+  </g>
+
+  <!-- Karpathy -->
+  <g transform="translate(450,540)">
+    <rect x="-50" y="-18" width="100" height="36" rx="18" fill="#555" stroke="#aaa" stroke-width="1"/>
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="11" font-weight="bold">布道者</text>
+    <text x="0" y="13" text-anchor="middle" fill="#ddd" font-size="9">Karpathy</text>
+  </g>
+
+  <!-- ==================== RELATIONSHIP LINES ==================== -->
+
+  <!-- 师承: Hinton → Ilya -->
+  <line x1="350" y1="102" x2="310" y2="198" stroke="#FFD700" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 创造: 七圣 → Transformer (label) -->
+  <line x1="700" y1="102" x2="700" y2="155" stroke="#FFD700" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="660" y="155" width="80" height="20" rx="4" fill="#333" stroke="#FFD700" stroke-width="0.5"/>
+  <text x="700" y="169" text-anchor="middle" fill="#FFD700" font-size="10">Transformer</text>
+
+  <!-- Transformer → OpenAI (用法典打天下) -->
+  <line x1="660" y1="165" x2="240" y2="330" stroke="#6c5ce7" stroke-width="1" stroke-dasharray="2,4"/>
+
+  <!-- Transformer → DeepSeek -->
+  <line x1="700" y1="175" x2="700" y2="478" stroke="#6c5ce7" stroke-width="1" stroke-dasharray="2,4"/>
+
+  <!-- 出走: Ilya → SSI -->
+  <line x1="300" y1="242" x2="300" y2="470" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrowRed)"/>
+  <text x="280" y="480" fill="#ff6b6b" font-size="9">出走创 SSI</text>
+
+  <!-- 出走: Dario ← OpenAI -->
+  <line x1="240" y1="340" x2="440" y2="340" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrowRed)"/>
+  <text x="340" y="333" text-anchor="middle" fill="#ff6b6b" font-size="9">出走</text>
+
+  <!-- 投奔: Schulman → Anthropic -->
+  <line x1="400" y1="420" x2="470" y2="370" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrowRed)"/>
+
+  <!-- Paszke 叛投: Meta → Google/JAX -->
+  <line x1="600" y1="218" x2="640" y2="264" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrowRed)"/>
+  <text x="580" y="250" fill="#ff6b6b" font-size="9">叛投 JAX</text>
+
+  <!-- Soumith 创造 PyTorch -->
+  <rect x="510" y="236" width="70" height="18" rx="4" fill="#333" stroke="#74b9ff" stroke-width="0.5"/>
+  <text x="545" y="249" text-anchor="middle" fill="#74b9ff" font-size="9">PyTorch</text>
+
+  <!-- Shazeer 回归 Google -->
+  <line x1="850" y1="302" x2="850" y2="222" stroke="#55efc4" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+  <text x="870" y="270" fill="#55efc4" font-size="9">$27亿回归</text>
+
+  <!-- 供奉: Nadella → OpenAI -->
+  <line x1="155" y1="455" x2="175" y2="365" stroke="#55efc4" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="130" y="410" fill="#55efc4" font-size="9">$130亿供奉</text>
+
+  <!-- Suleyman: DeepMind → MS -->
+  <line x1="100" y1="532" x2="100" y2="478" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="60" y="510" fill="#ff6b6b" font-size="9">收编</text>
+
+  <!-- Musk 创 OpenAI 又退出创 xAI -->
+  <line x1="280" y1="530" x2="220" y2="360" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="230" y="460" fill="#ff6b6b" font-size="9">共创后退出</text>
+
+  <!-- Jensen 供应灵核 (to all) -->
+  <line x1="1040" y1="160" x2="240" y2="330" stroke="#55efc4" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="1040" y1="170" x2="760" y2="490" stroke="#55efc4" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Tri Dao: FlashAttention 支撑一切 -->
+  <line x1="1000" y1="370" x2="760" y2="490" stroke="#fdcb6e" stroke-width="1" stroke-dasharray="2,4" opacity="0.5"/>
+  <line x1="1000" y1="360" x2="240" y2="350" stroke="#fdcb6e" stroke-width="1" stroke-dasharray="2,4" opacity="0.3"/>
+  <text x="1050" y="400" text-anchor="middle" fill="#fdcb6e" font-size="9">FlashAttn</text>
+  <text x="1050" y="412" text-anchor="middle" fill="#fdcb6e" font-size="9">支撑一切</text>
+
+  <!-- 梁文锋创造 GRPO -->
+  <rect x="660" y="545" width="80" height="18" rx="4" fill="#333" stroke="#e17055" stroke-width="0.5"/>
+  <text x="700" y="558" text-anchor="middle" fill="#e17055" font-size="10">GRPO · MLA</text>
+
+  <!-- 生广明创造 veRL -->
+  <rect x="810" y="660" width="80" height="18" rx="4" fill="#333" stroke="#fdcb6e" stroke-width="0.5"/>
+  <text x="850" y="673" text-anchor="middle" fill="#fdcb6e" font-size="10">veRL</text>
+
+  <!-- 姚顺雨创造 ReAct/ToT -->
+  <rect x="610" y="660" width="80" height="18" rx="4" fill="#333" stroke="#fdcb6e" stroke-width="0.5"/>
+  <text x="650" y="673" text-anchor="middle" fill="#fdcb6e" font-size="10">ReAct · ToT</text>
+
+  <!-- 姚+生 → 腾讯混元 -->
+  <line x1="730" y1="640" x2="790" y2="640" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+  <text x="760" y="655" text-anchor="middle" fill="#FFD700" font-size="9">腾讯混元</text>
+
+  <!-- 杨植麟 同门 姚顺雨 -->
+  <line x1="870" y1="520" x2="690" y2="608" stroke="#6c5ce7" stroke-width="1" stroke-dasharray="2,4" opacity="0.4"/>
+  <text x="800" y="570" fill="#6c5ce7" font-size="9">姚班同门</text>
+
+  <!-- 罗福莉 from DeepSeek -->
+  <line x1="1080" y1="590" x2="760" y2="510" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+  <text x="940" y="555" fill="#ff6b6b" font-size="9">达摩院→DS→小米</text>
+
+  <!-- 生广明 from 字节 Seed -->
+  <line x1="850" y1="598" x2="850" y2="570" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+  <text x="910" y="590" fill="#ff6b6b" font-size="9">字节→腾讯</text>
+
+  <!-- Hassabis: AlphaGo + AlphaFold -->
+  <rect x="930" y="240" width="100" height="18" rx="4" fill="#333" stroke="#55efc4" stroke-width="0.5"/>
+  <text x="980" y="253" text-anchor="middle" fill="#55efc4" font-size="9">AlphaGo · AlphaFold</text>
+
+  <!-- 姚顺雨: Princeton → OpenAI → 腾讯 -->
+  <text x="590" y="650" fill="#ff6b6b" font-size="8">Princeton→OpenAI→腾讯</text>
 
   <!-- Title -->
-  <text x="600" y="780" text-anchor="middle" fill="#666" font-size="11">《大模王》修仙界势力图谱 · 2026</text>
+  <text x="700" y="980" text-anchor="middle" fill="#666" font-size="12">《大模王》人物关系图谱 · 师承 · 叛投 · 创造 · 供奉 · 2026</text>
+
+  <!-- Faction labels (background areas) -->
+  <text x="200" y="300" fill="#74b9ff" font-size="10" opacity="0.3" font-weight="bold">OpenAI 仙宗</text>
+  <text x="750" y="160" fill="#55efc4" font-size="10" opacity="0.3" font-weight="bold">Google 神殿</text>
+  <text x="500" y="310" fill="#fd79a8" font-size="10" opacity="0.3" font-weight="bold">Anthropic</text>
+  <text x="780" y="470" fill="#e17055" font-size="10" opacity="0.3" font-weight="bold">东方势力</text>
+  <text x="80" y="510" fill="#6c5ce7" font-size="10" opacity="0.3" font-weight="bold">微软</text>
 </svg>
