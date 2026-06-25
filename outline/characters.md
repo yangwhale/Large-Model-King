@@ -254,12 +254,34 @@ LaMDA (2021) → PaLM (2022, 540B) → Bard (2023.02, 翻车) → PaLM 2 (2023)
 
 ## 境界体系
 
-| 境界 | 对应能力 | 代表模型 |
+### 神兽境界（模型能力等级）
+
+| 境界 | 对应能力 | 代表神兽 |
 |------|---------|---------|
 | 练气期 | 感知模式（CNN/RNN 基础能力） | LeNet、Word2Vec |
 | 筑基期 | 理解语言（预训练基础） | BERT、GPT-1 |
 | 金丹期 | 生成流畅文本 | GPT-2、T5 |
 | 元婴期 | 涌现能力（Few-shot） | GPT-3、PaLM |
-| 化神期 | 推理能力（Chain-of-Thought） | GPT-4、Claude 3 |
-| 大乘期 | 深度推理（RL 后训练） | o1、R1、Claude Opus |
+| 化神期 | 推理能力（Chain-of-Thought） | GPT-4、Claude 3、Gemini Pro |
+| 大乘期 | 深度推理（RL 后训练） | o1、R1、Claude Opus 4、GPT-5 |
 | 渡劫期 | 接近 AGI（假设） | ??? |
+
+### 人物境界（修炼者能力等级）
+
+人物的境界不是按"战斗力"排的——修仙界不打架。境界反映的是一个人对 AI 修仙界的**影响力深度和广度**。
+
+| 境界 | 判定标准 | 代表人物 |
+|------|---------|---------|
+| 练气期 | 入门学习者。会用现有框架训练和使用模型，但没有独创性贡献。 | AI 课程学生、初级工程师 |
+| 筑基期 | 能独立完成工程实现。在某个领域有可靠的实践能力，但尚未在更大范围产生影响。 | Chris Yang（观察者）、大部分行业从业者 |
+| 金丹期 | 有被认可的独立贡献。发表过有影响力的论文，或开源过被广泛使用的项目，或带领团队做出过有影响力的产品。 | 面壁智能（MiniCPM）、Aidan Gomez（Cohere）|
+| 元婴期 | 在一个重要领域产生了显著影响。领导过重大项目，或做出过改变一个子领域的贡献。通常是知名公司的技术负责人或成功创业者。 | Sam Altman（商业运作）、Greg Brockman（工程落地）、Bill Jia（Meta AI Infra）、Daniela Amodei（运营）、罗福莉（MiMo）|
+| 化神期 | 在整个修仙界产生了跨领域的影响。发明了被广泛采用的功法、法器或法阵，或者培育出改变行业格局的神兽。被同行公认为某一领域的顶级人物。 | Ilya Sutskever（Scaling 远见）、Vaswani 等（Transformer）、梁文锋（DeepSeek）、生广明（veRL）、何恺明（ResNet）、Tri Dao（FlashAttention）、Soumith Chintala（PyTorch）、杨植麟（Kimi）、姚顺雨（ReAct/ToT）、Jason Wei（CoT）、闫俊杰（MiniMax）、唐杰（GLM）、François Chollet（Keras/ARC） |
+| 大乘期 | 定义了修仙界的发展方向。不只是在某个领域顶尖，而是**开辟了新的道路**——让整个修仙界的范式发生转变。同时具备技术深度和行业影响力。 | Jeff Dean（Google 太上长老，MapReduce/TensorFlow/TPU）、Demis Hassabis（AlphaGo/AlphaFold/诺贝尔奖）、Dario Amodei（Constitutional AI 新道路）、Jensen Huang（GPU→AI 灵核，缔造万亿帝国）、Mark Zuckerberg（开源放兽战略）、Sam Altman（推动 AI 从实验室到大众）|
+| 渡劫期 | 从根本上改变了人类文明与 AI 的关系。贡献超越了 AI 领域本身，影响到了科学、哲学、社会的底层。修仙界的"天道加冕"级别。 | Geoffrey Hinton（反向传播+30 年坚持+诺贝尔物理学奖+AI 安全警告）、Yann LeCun（CNN+坚持世界模型理论）、Yoshua Bengio（概率模型+AI 安全+MILA 学派） |
+
+**境界判定说明**：
+- 同一人物的境界可能随时间变化。Sam Altman 在 2020 年可能是金丹期，2023 年 ChatGPT 之后升到了大乘期。
+- 境界不等于"谁更厉害"。一个化神期的系统工程师和一个化神期的算法研究员，能力维度完全不同，但影响力深度相当。
+- 商业成功本身不算境界提升的依据——必须有**对修仙界的实质性技术或范式贡献**。纯粹的融资和估值不算。
+- 渡劫期目前只有三位上古大能。这个境界的门槛是"改变了人类对智能的理解"。未来可能还会有人达到。
