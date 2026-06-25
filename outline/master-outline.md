@@ -120,6 +120,7 @@
 
 | 章 | 标题 | 时间跨度 | 核心内容 | 进度 | 素材来源 |
 |----|------|---------|---------|------|---------|
+| — | 孕兽之道 | 2018-2026 | 预训练全流程。next-token prediction、数据管道、切元术、封坛千核合阵、Loss spike 与训练凶险。 | 🔄 修订中 | style-guide.md, parallelism.md |
 | 15 | 四象驯兽 | 2022-2023 | PPO + RLHF。四个模型的协同。InstructGPT 到 ChatGPT。OpenAI 的看家本领。 | 🔄 修订中 | taming-methods.md |
 | 16 | 直觉驯化 | 2023 | DPO 的简约革命。Stanford 的数学等价证明。去掉 Reward Model。小团队的福音。 | 🔄 修订中 | taming-methods.md |
 | 17 | 群兽竞逐 | 2024-2025 | GRPO + RLVR。DeepSeek R1 的破局。不需要裁判，让神兽自己比出高下。可验证奖励把人类解放出来。 | 🔄 修订中 | taming-methods.md |

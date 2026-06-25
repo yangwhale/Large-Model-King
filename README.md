@@ -43,7 +43,8 @@
 - [第13章·蔚蓝之变](chapters/vol3-battle/ch13-microsoft-openai.md) — 微软与 OpenAI 分手
 - [第14章·宪法道人](chapters/vol3-battle/ch14-anthropic.md) — Anthropic 的另一条路
 
-### 篇四·御兽之法 — RLHF/GRPO 到底是什么？
+### 篇四·御兽之法 — 从预训练到 RLHF，神兽怎么炼成的？
+- [孕兽之道](chapters/vol4-taming/ch14b-pretraining.md) — 预训练：从兽卵到破壳
 - [第15章·四象驯兽](chapters/vol4-taming/ch15-ppo-rlhf.md) — PPO 与 RLHF
 - [番外·闪念真人](chapters/vol4-taming/ch15b-flashattention.md) — FlashAttention 与 Tri Dao
 - [第16章·直觉驯化](chapters/vol4-taming/ch16-dpo.md) — DPO 的简约革命
