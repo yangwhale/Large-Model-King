@@ -1,4 +1,5 @@
 # 大模王
+## 大模王我当定了！
 
 ![神兽破卵](assets/hero-divine-beast.png)
 
