@@ -234,7 +234,7 @@ LaMDA (2021) → PaLM (2022, 540B) → Bard (2023.02, 翻车) → PaLM 2 (2023)
 | Arthur Mensch | 西风剑客 | DeepMind → Mistral AI | 化神期 | 前 DeepMind 研究员。2023 年在法国创立 Mistral AI，欧洲 AI 的旗帜。Mistral 7B 和 Mixtral 8x7B 以小博大，证明不是只有美国和中国才能训出好神兽。估值 140 亿美元。 |
 | Ian Goodfellow | 幻术宗师 | 酒吧 → Google → Apple | 化神期 | GAN（生成对抗网络）的发明者。传说是在酒吧喝酒时灵光一闪想出的。"以幻制幻"——让两个神经网络互相对抗来生成逼真图像。后来的 Stable Diffusion、DALL-E 都是他的思想后裔。 |
 | 何恺明 | 残差真人 | MSRA → Facebook AI → MIT | 化神期 | ResNet 残差网络的发明者。发现了"跳层捷径"——让信息可以跳过中间层直达深处，解决了深层网络退化难题。从此网络可以从几十层突破到上千层。CVPR 史上被引用最多的论文。 |
-| Tri Dao | 闪念真人 | Stanford/Princeton → Together AI | 化神期 | FlashAttention 的发明者。把 Attention 的计算效率提升了 2-4 倍，内存占用大幅降低。听起来不性感但影响极大——几乎所有大模型训练都用 FlashAttention。基础设施级的贡献。 |
+| Tri Dao | 闪念真人 | Stanford → Princeton → Together AI | 化神期 | 修仙界最被低估的人之一。Stanford 博士，导师是 Christopher Ré 和 Stefano Ermon。2022 年发明 FlashAttention——把 Attention 的计算效率提升 2-4 倍，内存占用大幅降低。听起来不性感，但**几乎所有大模型的每一次前向传播都在调用他写的代码**。FlashAttention 1→2→3 三代迭代，每代都针对最新灵核（V100→A100→H100）做了极致的硬件感知优化——利用 GPU 的 SRAM/HBM 层级结构，用 IO-aware 的算法减少显存读写。被引超 8000 次。2023 年又跟 Albert Gu 一起发明了 Mamba——一种线性复杂度的状态空间模型，试图挑战 Transformer 的注意力法典地位（被引 11000+）。2024 年加入 Princeton 任助理教授，同时是 Together AI 的联合创始人兼首席科学家。一个人同时在三个层面改变修仙界：底层算子（FlashAttention）、架构探索（Mamba）、商业落地（Together AI）。 |
 | Clement Delangue | 百兽阁主 | Hugging Face | 化神期 | Hugging Face 的联合创始人兼 CEO。把 Hugging Face 做成了 AI 界的 GitHub——全球最大的模型分享平台。几乎所有开源神兽都在他的百兽阁里有一席之地。 |
 
 ## 关键平台与圣地
